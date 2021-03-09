@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../../common/components/Container";
 import Typography from "../../common/components/Typography";
-import Icon from "./Icon";
 import styles from "./Summary.module.scss";
 import SummaryCard from "./SummaryCard";
 
