@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "./Summary.module.scss";
 
 interface SummaryCardProps {
-  icon: React.ReactNode;
+  icon: string;
   title: string;
   description: React.ReactNode;
 }
@@ -13,7 +13,9 @@ const SummaryCard: React.FC<SummaryCardProps> = (props) => {
   return (
     <div className={styles.card} data-rule="animation">
       <div style={{ display: "flex" }}>
-        <div className={styles.icon}>{icon}</div>
+        <div className={styles.icon}>
+          <img src={icon} alt={icon} />
+        </div>
         <div style={{ flex: 1 }}>
           <div className={styles.title}>{title}</div>
           <div className={styles.desc}> {description}</div>

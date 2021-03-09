@@ -2,20 +2,11 @@
 @import "../../common/const.scss";
 
 .root {
-  background-color: rgb(16, 19, 33);
-  color: $text-color;
-  width: 100vw;
-  padding: 6rem 0;
+  background-color: #FFF;
+  padding: 6rem 0 9rem;
 
   .title {
-    margin-bottom: 4rem;
-
-    > h2 {
-      font-size: 1.875rem;
-      font-weight: 500;
-      line-height: 1.5;
-      margin: 0;
-    }
+    margin-bottom: 3rem;
   }
 
   .icons {
@@ -26,15 +17,21 @@
     .icon {
       cursor: pointer;
       color: #888;
-      width: 42px;
-      height: 42px;
-      margin: 0 12px;
+      width: 72px;
+      height: 72px;
+      border-radius: 4px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
 
+      svg {
+        width: 36px;
+        height: 36px;
+      }
+
       &:hover {
         color: $primary-color;
+        background-color: rgba($color:$primary-color, $alpha: .1);
       }
     }
   }

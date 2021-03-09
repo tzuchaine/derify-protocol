@@ -1,7 +1,7 @@
 @import "../../common/const.scss";
 
 .root {
-  background-color: rgb(16, 19, 33);
+  background-color: $background-color;
   color: $text-color;
   width: 100vw;
 
@@ -12,14 +12,7 @@
   }
 
   .title {
-    margin-bottom: 4rem;
-
-    > h2 {
-      font-size: 1.875rem;
-      font-weight: 500;
-      line-height: 1.5;
-      margin: 0;
-    }
+    margin-bottom: 3rem;
   }
 
   .subtitle {

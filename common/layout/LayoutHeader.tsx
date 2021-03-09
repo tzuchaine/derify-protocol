@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Hide from "../components/Hide";
 import styles from "./Layout.module.scss";
+import MenuIcon from "./MenuIcon";
 
 const LayoutHeader: React.FC = () => {
   return (
@@ -11,8 +12,8 @@ const LayoutHeader: React.FC = () => {
           <div className={styles.brand}>
             <img src="/brand.svg" alt="brand image" width="274" height="60" />
           </div>
-          <Hide>
-            <div className={`${styles.nav}`}>
+          <div className={`${styles.nav}`}>
+            <Hide>
               <ul>
                 <li>Home</li>
                 <li>Learn</li>
@@ -20,8 +21,11 @@ const LayoutHeader: React.FC = () => {
                 <li>Community</li>
                 <li className={styles.active}>ExChange</li>
               </ul>
-            </div>
-          </Hide>
+            </Hide>
+            <Hide up>
+              <MenuIcon />
+            </Hide>
+          </div>
         </nav>
       </Container>
     </header>

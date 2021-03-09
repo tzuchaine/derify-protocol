@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../common/components/Button";
 import Container from "../../common/components/Container";
+import Typography from "../../common/components/Typography";
 import styles from "./Governance.module.scss";
 
 const Governance: React.FC = () => {
@@ -9,7 +10,9 @@ const Governance: React.FC = () => {
       <Container>
         <div className={styles.container}>
           <div className={styles.title}>
-            <h2>Governance of Derify protocol</h2>
+            <Typography.Heading>
+              Governance of Derify protocol
+            </Typography.Heading>
           </div>
           <div className={styles.subtitle}>
             <p>
