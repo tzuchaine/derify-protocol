@@ -1,0 +1,39 @@
+@import "../const.scss";
+
+@mixin breakpoint {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.root {
+  text-align: center;
+  width: 100%;
+  padding: 0 1.5rem;
+
+  .breakpoint {
+    &-xs {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, xs);
+    }
+    &-sm {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, sm);
+    }
+    &-md {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, md);
+    }
+    &-lg {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, lg);
+    }
+    &-xl {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, xl);
+    }
+    &-xxl {
+      @include breakpoint;
+      max-width: map-get($grid-breakpoints, xxl);
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "../const.scss";
+
+.root {
+  width: 100%;
+  display: block;
+
+  &.down {
+    @media screen and (max-width: map-get($grid-breakpoints, xs)) {
+      &-xs {
+        display: none;
+      }
+    }
+    @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+      &-sm {
+        display: none;
+      }
+    }
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+      &-md {
+        display: none;
+      }
+    }
+    @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+      &-lg {
+        display: none;
+      }
+    }
+    @media screen and (max-width: map-get($grid-breakpoints, xl)) {
+      &-xl {
+        display: none;
+      }
+    }
+    @media screen and (max-width: map-get($grid-breakpoints, xxl)) {
+      &-xxl {
+        display: none;
+      }
+    }
+  }
+
+  &.up {
+    @media screen and (min-width: map-get($grid-breakpoints, xs)) {
+      &-xs {
+        display: none;
+      }
+    }
+    @media screen and (min-width: map-get($grid-breakpoints, sm)) {
+      &-sm {
+        display: none;
+      }
+    }
+    @media screen and (min-width: map-get($grid-breakpoints, md)) {
+      &-md {
+        display: none;
+      }
+    }
+    @media screen and (min-width: map-get($grid-breakpoints, lg)) {
+      &-lg {
+        display: none;
+      }
+    }
+    @media screen and (min-width: map-get($grid-breakpoints, xl)) {
+      &-xl {
+        display: none;
+      }
+    }
+    @media screen and (min-width: map-get($grid-breakpoints, xxl)) {
+      &-xxl {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,386 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="274" height="60" viewBox="0 0 274 60">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="路径_3" data-name="路径 3" d="M132.039,82.26v7.8H118.07v-7.8Z" transform="translate(-118.07 -82.26)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="路径_4" data-name="路径 4" d="M124.688,67.433v23.99h-7.752V67.433Z" transform="translate(-116.936 -67.433)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="路径_7" data-name="路径 7" d="M7.721-70.313q5.1-.127,7.674-2.907t2.579-8.436q0-5.656-2.579-8.436T7.721-93H0v22.687Zm-.946-1.865H2.169V-91.135H6.775a14.906,14.906,0,0,1,4.209.523,6.741,6.741,0,0,1,2.906,1.664A6.843,6.843,0,0,1,15.574-86a15.3,15.3,0,0,1,.54,4.343,15.3,15.3,0,0,1-.54,4.343,6.843,6.843,0,0,1-1.684,2.948A6.741,6.741,0,0,1,10.984-72.7,14.906,14.906,0,0,1,6.775-72.178ZM27.825-70a6.976,6.976,0,0,0,4.794-1.505,7.871,7.871,0,0,0,2.326-4.265H32.951a5.927,5.927,0,0,1-1.709,3.011,4.874,4.874,0,0,1-3.417,1.129,4.722,4.722,0,0,1-2.436-.6,5.508,5.508,0,0,1-1.677-1.505,6.052,6.052,0,0,1-.965-2.054,8.7,8.7,0,0,1-.3-2.211H35.008a12.69,12.69,0,0,0-.316-3.34,8.475,8.475,0,0,0-1.25-2.917,6.657,6.657,0,0,0-2.262-2.054,6.735,6.735,0,0,0-3.354-.784,7.107,7.107,0,0,0-3.338.737,6.578,6.578,0,0,0-2.294,1.945,8.39,8.39,0,0,0-1.313,2.744,11.657,11.657,0,0,0-.427,3.136,12.3,12.3,0,0,0,.427,3.277,8.019,8.019,0,0,0,1.313,2.729,6.135,6.135,0,0,0,2.294,1.85A7.66,7.66,0,0,0,27.825-70Zm5.023-9.634H22.312a9.415,9.415,0,0,1,.52-2.2,6.586,6.586,0,0,1,1.057-1.893A5.1,5.1,0,0,1,25.5-85.044a4.609,4.609,0,0,1,2.177-.5,4.54,4.54,0,0,1,2.145.5,5.1,5.1,0,0,1,1.609,1.316,6.092,6.092,0,0,1,1.025,1.877A7.416,7.416,0,0,1,32.848-79.636Zm6.639,9.323V-78.97a6.242,6.242,0,0,1,.442-2.377,5.468,5.468,0,0,1,1.248-1.873,5.548,5.548,0,0,1,1.912-1.212,6.029,6.029,0,0,1,2.464-.362v-1.983a6.18,6.18,0,0,0-3.807.976,6.238,6.238,0,0,0-2.354,3.053h-.063v-3.809H37.5v16.243ZM49.581-89.892V-93H47.722v3.108Zm0,19.579V-86.784H47.722v16.471Zm6.877,0V-85.025h5.518L61.2-86.709H56.458v-1.43q0-.667.031-1.239a2.666,2.666,0,0,1,.234-1,1.544,1.544,0,0,1,.639-.683,2.5,2.5,0,0,1,1.247-.254,4.978,4.978,0,0,1,.686.048q.343.048.748.111v-1.716q-.468-.064-.842-.1T58.391-93a4.7,4.7,0,0,0-1.949.35,2.864,2.864,0,0,0-1.2.985,3.823,3.823,0,0,0-.592,1.525,11.251,11.251,0,0,0-.156,1.938v1.493H51.75v1.684h2.744v14.712Zm6.181,5.9a5.915,5.915,0,0,0,1.571-.174,2.788,2.788,0,0,0,1.079-.571,3.939,3.939,0,0,0,.841-1.078,18.21,18.21,0,0,0,.825-1.727l7.108-18.826h-2L67.018-72.839,61.624-86.784H59.5l6.537,16.291-.7,1.838q-.254.57-.476,1.046a3,3,0,0,1-.539.808,2.32,2.32,0,0,1-.746.523,2.713,2.713,0,0,1-1.095.19,4.824,4.824,0,0,1-.682-.048q-.333-.048-.682-.111v1.68a1.933,1.933,0,0,0,.587.111Zm24.73-5.9v-9.723h7.877A8.34,8.34,0,0,0,98-80.465a5.792,5.792,0,0,0,2.119-1.271,5.621,5.621,0,0,0,1.36-2.049,7.423,7.423,0,0,0,.475-2.733,7.423,7.423,0,0,0-.475-2.733,5.621,5.621,0,0,0-1.36-2.049A5.792,5.792,0,0,0,98-92.571,8.34,8.34,0,0,0,95.245-93H85.218v22.687Zm7.4-11.5h-7.38v-9.323h7.38a5.5,5.5,0,0,1,3.627,1.149,4.3,4.3,0,0,1,1.388,3.512,4.3,4.3,0,0,1-1.388,3.512A5.5,5.5,0,0,1,94.768-81.812Zm11.964,11.5V-78.97a6.242,6.242,0,0,1,.442-2.377,5.467,5.467,0,0,1,1.248-1.873,5.548,5.548,0,0,1,1.912-1.212,6.03,6.03,0,0,1,2.465-.362v-1.983a6.18,6.18,0,0,0-3.807.976,6.238,6.238,0,0,0-2.354,3.053h-.063v-3.809h-1.833v16.243ZM121.474-70a7.761,7.761,0,0,0,3.318-.674,7.045,7.045,0,0,0,2.429-1.835,7.98,7.98,0,0,0,1.492-2.713,10.574,10.574,0,0,0,.508-3.309,10.574,10.574,0,0,0-.508-3.309,7.98,7.98,0,0,0-1.492-2.713,7.217,7.217,0,0,0-2.429-1.85,7.611,7.611,0,0,0-3.318-.69,7.611,7.611,0,0,0-3.318.69,7.217,7.217,0,0,0-2.429,1.85,7.979,7.979,0,0,0-1.492,2.713,10.574,10.574,0,0,0-.508,3.309,10.574,10.574,0,0,0,.508,3.309,7.98,7.98,0,0,0,1.492,2.713,7.045,7.045,0,0,0,2.429,1.835A7.761,7.761,0,0,0,121.474-70Zm.155-1.554a5.03,5.03,0,0,1-2.5-.6,5.5,5.5,0,0,1-1.79-1.589,7.222,7.222,0,0,1-1.077-2.241,9.138,9.138,0,0,1-.364-2.559,9.138,9.138,0,0,1,.364-2.559,7.222,7.222,0,0,1,1.077-2.241,5.5,5.5,0,0,1,1.79-1.589,5.03,5.03,0,0,1,2.5-.6,5.03,5.03,0,0,1,2.5.6,5.5,5.5,0,0,1,1.79,1.589A7.221,7.221,0,0,1,127-81.107a9.137,9.137,0,0,1,.364,2.559A9.137,9.137,0,0,1,127-75.99a7.221,7.221,0,0,1-1.077,2.241,5.5,5.5,0,0,1-1.79,1.589A5.03,5.03,0,0,1,121.629-71.556Zm15.14,1.243q.437,0,.874-.032t.874-.032v-1.681a15.024,15.024,0,0,1-1.686.1q-1.062-.063-1.327-.619a3.635,3.635,0,0,1-.265-1.539V-85.159h3.279V-86.84h-3.279v-4.917h-1.967v4.917h-2.811v1.681h2.811v11.2a3.958,3.958,0,0,0,.75,2.871A3.848,3.848,0,0,0,136.769-70.313ZM148.434-70a7.761,7.761,0,0,0,3.318-.674,7.045,7.045,0,0,0,2.429-1.835,7.98,7.98,0,0,0,1.492-2.713,10.574,10.574,0,0,0,.508-3.309,10.574,10.574,0,0,0-.508-3.309,7.98,7.98,0,0,0-1.492-2.713,7.217,7.217,0,0,0-2.429-1.85,7.611,7.611,0,0,0-3.318-.69,7.611,7.611,0,0,0-3.318.69,7.217,7.217,0,0,0-2.429,1.85,7.98,7.98,0,0,0-1.492,2.713,10.574,10.574,0,0,0-.508,3.309,10.574,10.574,0,0,0,.508,3.309,7.98,7.98,0,0,0,1.492,2.713,7.045,7.045,0,0,0,2.429,1.835A7.761,7.761,0,0,0,148.434-70Zm-.155-1.554a5.03,5.03,0,0,1-2.5-.6,5.5,5.5,0,0,1-1.79-1.589,7.221,7.221,0,0,1-1.077-2.241,9.138,9.138,0,0,1-.364-2.559,9.138,9.138,0,0,1,.364-2.559,7.221,7.221,0,0,1,1.077-2.241,5.5,5.5,0,0,1,1.79-1.589,5.03,5.03,0,0,1,2.5-.6,5.03,5.03,0,0,1,2.5.6,5.5,5.5,0,0,1,1.79,1.589,7.222,7.222,0,0,1,1.077,2.241,9.138,9.138,0,0,1,.364,2.559,9.138,9.138,0,0,1-.364,2.559,7.222,7.222,0,0,1-1.077,2.241,5.5,5.5,0,0,1-1.79,1.589A5.03,5.03,0,0,1,148.279-71.556ZM165.961-70a6.284,6.284,0,0,0,4.492-1.647,7.482,7.482,0,0,0,2.152-4.595H170.64a5.411,5.411,0,0,1-.5,1.85,5.111,5.111,0,0,1-1.029,1.458,4.607,4.607,0,0,1-1.435.957,4.337,4.337,0,0,1-1.716.345,4.946,4.946,0,0,1-2.464-.6,5.42,5.42,0,0,1-1.762-1.568,7.132,7.132,0,0,1-1.061-2.211,9.034,9.034,0,0,1-.359-2.525,9.034,9.034,0,0,1,.359-2.525,7.132,7.132,0,0,1,1.061-2.211,5.42,5.42,0,0,1,1.762-1.568,4.946,4.946,0,0,1,2.464-.6,4.267,4.267,0,0,1,3.057,1.035,5.448,5.448,0,0,1,1.5,2.854h1.965a5.9,5.9,0,0,0-2.137-4.171,6.973,6.973,0,0,0-4.382-1.38,7.365,7.365,0,0,0-3.26.69,7.105,7.105,0,0,0-2.386,1.85,8.022,8.022,0,0,0-1.466,2.713,10.748,10.748,0,0,0-.5,3.309,10.748,10.748,0,0,0,.5,3.309,8.022,8.022,0,0,0,1.466,2.713,6.934,6.934,0,0,0,2.386,1.835A7.51,7.51,0,0,0,165.961-70Zm16.25,0a7.761,7.761,0,0,0,3.318-.674,7.045,7.045,0,0,0,2.429-1.835,7.979,7.979,0,0,0,1.492-2.713,10.574,10.574,0,0,0,.508-3.309,10.574,10.574,0,0,0-.508-3.309,7.979,7.979,0,0,0-1.492-2.713,7.217,7.217,0,0,0-2.429-1.85,7.611,7.611,0,0,0-3.318-.69,7.611,7.611,0,0,0-3.318.69,7.217,7.217,0,0,0-2.429,1.85,7.98,7.98,0,0,0-1.492,2.713,10.575,10.575,0,0,0-.508,3.309,10.575,10.575,0,0,0,.508,3.309,7.98,7.98,0,0,0,1.492,2.713,7.045,7.045,0,0,0,2.429,1.835A7.761,7.761,0,0,0,182.211-70Zm.155-1.554a5.03,5.03,0,0,1-2.5-.6,5.5,5.5,0,0,1-1.79-1.589A7.221,7.221,0,0,1,177-75.99a9.137,9.137,0,0,1-.364-2.559A9.137,9.137,0,0,1,177-81.107a7.221,7.221,0,0,1,1.077-2.241,5.5,5.5,0,0,1,1.79-1.589,5.03,5.03,0,0,1,2.5-.6,5.03,5.03,0,0,1,2.5.6,5.5,5.5,0,0,1,1.79,1.589,7.221,7.221,0,0,1,1.077,2.241,9.138,9.138,0,0,1,.364,2.559,9.138,9.138,0,0,1-.364,2.559,7.221,7.221,0,0,1-1.077,2.241,5.5,5.5,0,0,1-1.79,1.589A5.03,5.03,0,0,1,182.366-71.556Zm12.55,1.243V-93h-1.859v22.687Z" transform="translate(0 93)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="路径_6" data-name="路径 6" d="M-636-274.256H1045.693V-1053H-636Z" transform="translate(636 1053)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="组_134" data-name="组 134" transform="translate(-80 -48)">
+    <g id="页面1" transform="translate(80 48)">
+      <g id="示意" transform="translate(0 0)">
+        <g id="编组-4备份-11" transform="translate(0 0)">
+          <g id="编组-4备份-5">
+            <g id="编组-5">
+              <g id="路径" transform="translate(0 21.316)">
+                <path id="路径_1" data-name="路径 1" d="M19.356,81.12H31.534v3.9h7.053v15.958A19.032,19.032,0,0,1,19.356,119.8,19.04,19.04,0,0,1,.127,101.289l0-.312v-1.03A19.024,19.024,0,0,1,19.039,81.122Zm11.479,19.857V88.917H19.356A11.272,11.272,0,0,0,7.878,99.766l0,.182v1.03a11.263,11.263,0,0,0,11.479,11.03,11.271,11.271,0,0,0,11.478-10.849Z" transform="translate(-0.124 -81.12)" fill="#e7486a"/>
+              </g>
+              <g id="路径备份-3" transform="translate(30.711)">
+                <path id="路径_2" data-name="路径 2" d="M116.936,29.492V14.42a14.312,14.312,0,0,1,28.622-.237l0,.237v.721c0,7.814-6.77,14.168-14.623,14.294l-.238,0h-3.876v-7.8H130.7c3.768,0,7.043-3,7.108-6.4V14.42a6.56,6.56,0,0,0-13.118-.108V29.492Z" transform="translate(-116.936 -0.068)" fill="#fae247"/>
+              </g>
+              <g id="直线-3备份-2" transform="translate(31.009 21.612)">
+                <g id="组_2" data-name="组 2">
+                  <g id="组_1" data-name="组 1" clip-path="url(#clip-path)">
+                    <rect id="矩形_2" data-name="矩形 2" width="0.34" height="7.797" fill="#b43858"/>
+                    <rect id="矩形_3" data-name="矩形 3" width="0.031" height="7.797" transform="translate(0.34)" fill="#b43858"/>
+                    <rect id="矩形_4" data-name="矩形 4" width="0.031" height="7.797" transform="translate(0.371)" fill="#b43958"/>
+                    <rect id="矩形_5" data-name="矩形 5" width="0.031" height="7.797" transform="translate(0.402)" fill="#b53a58"/>
+                    <rect id="矩形_6" data-name="矩形 6" width="0.031" height="7.797" transform="translate(0.434)" fill="#b53b58"/>
+                    <rect id="矩形_7" data-name="矩形 7" width="0.031" height="7.797" transform="translate(0.465)" fill="#b63c58"/>
+                    <rect id="矩形_8" data-name="矩形 8" width="0.031" height="7.797" transform="translate(0.496)" fill="#b63d57"/>
+                    <rect id="矩形_9" data-name="矩形 9" width="0.031" height="7.797" transform="translate(0.528)" fill="#b63e57"/>
+                    <rect id="矩形_10" data-name="矩形 10" width="0.031" height="7.797" transform="translate(0.559)" fill="#b73f57"/>
+                    <rect id="矩形_11" data-name="矩形 11" width="0.031" height="7.797" transform="translate(0.59)" fill="#b74057"/>
+                    <rect id="矩形_12" data-name="矩形 12" width="0.031" height="7.797" transform="translate(0.622)" fill="#b84157"/>
+                    <rect id="矩形_13" data-name="矩形 13" width="0.031" height="7.797" transform="translate(0.653)" fill="#b84257"/>
+                    <rect id="矩形_14" data-name="矩形 14" width="0.031" height="7.797" transform="translate(0.684)" fill="#b94357"/>
+                    <rect id="矩形_15" data-name="矩形 15" width="0.031" height="7.797" transform="translate(0.716)" fill="#b94457"/>
+                    <rect id="矩形_16" data-name="矩形 16" width="0.031" height="7.797" transform="translate(0.747)" fill="#b94557"/>
+                    <rect id="矩形_17" data-name="矩形 17" width="0.031" height="7.797" transform="translate(0.778)" fill="#ba4657"/>
+                    <rect id="矩形_18" data-name="矩形 18" width="0.031" height="7.797" transform="translate(0.81)" fill="#ba4756"/>
+                    <rect id="矩形_19" data-name="矩形 19" width="0.031" height="7.797" transform="translate(0.841)" fill="#bb4856"/>
+                    <rect id="矩形_20" data-name="矩形 20" width="0.031" height="7.797" transform="translate(0.873)" fill="#bb4956"/>
+                    <rect id="矩形_21" data-name="矩形 21" width="0.031" height="7.797" transform="translate(0.904)" fill="#bb4a56"/>
+                    <rect id="矩形_22" data-name="矩形 22" width="0.031" height="7.797" transform="translate(0.935)" fill="#bc4b56"/>
+                    <rect id="矩形_23" data-name="矩形 23" width="0.031" height="7.797" transform="translate(0.967)" fill="#bc4c56"/>
+                    <rect id="矩形_24" data-name="矩形 24" width="0.031" height="7.797" transform="translate(0.998)" fill="#bd4d56"/>
+                    <rect id="矩形_25" data-name="矩形 25" width="0.031" height="7.797" transform="translate(1.029)" fill="#bd4e56"/>
+                    <rect id="矩形_26" data-name="矩形 26" width="0.031" height="7.797" transform="translate(1.061)" fill="#be4f56"/>
+                    <rect id="矩形_27" data-name="矩形 27" width="0.031" height="7.797" transform="translate(1.092)" fill="#be5056"/>
+                    <rect id="矩形_28" data-name="矩形 28" width="0.031" height="7.797" transform="translate(1.123)" fill="#be5155"/>
+                    <rect id="矩形_29" data-name="矩形 29" width="0.031" height="7.797" transform="translate(1.155)" fill="#bf5255"/>
+                    <rect id="矩形_30" data-name="矩形 30" width="0.031" height="7.797" transform="translate(1.186)" fill="#bf5355"/>
+                    <rect id="矩形_31" data-name="矩形 31" width="0.031" height="7.797" transform="translate(1.217)" fill="#c05455"/>
+                    <rect id="矩形_32" data-name="矩形 32" width="0.031" height="7.797" transform="translate(1.249)" fill="#c05555"/>
+                    <rect id="矩形_33" data-name="矩形 33" width="0.031" height="7.797" transform="translate(1.28)" fill="#c05655"/>
+                    <rect id="矩形_34" data-name="矩形 34" width="0.031" height="7.797" transform="translate(1.312)" fill="#c15755"/>
+                    <rect id="矩形_35" data-name="矩形 35" width="0.031" height="7.797" transform="translate(1.343)" fill="#c15855"/>
+                    <rect id="矩形_36" data-name="矩形 36" width="0.031" height="7.797" transform="translate(1.374)" fill="#c25955"/>
+                    <rect id="矩形_37" data-name="矩形 37" width="0.031" height="7.797" transform="translate(1.406)" fill="#c25a55"/>
+                    <rect id="矩形_38" data-name="矩形 38" width="0.031" height="7.797" transform="translate(1.437)" fill="#c25b54"/>
+                    <rect id="矩形_39" data-name="矩形 39" width="0.031" height="7.797" transform="translate(1.468)" fill="#c35c54"/>
+                    <rect id="矩形_40" data-name="矩形 40" width="0.031" height="7.797" transform="translate(1.5)" fill="#c35d54"/>
+                    <rect id="矩形_41" data-name="矩形 41" width="0.031" height="7.797" transform="translate(1.531)" fill="#c45e54"/>
+                    <rect id="矩形_42" data-name="矩形 42" width="0.031" height="7.797" transform="translate(1.562)" fill="#c45f54"/>
+                    <rect id="矩形_43" data-name="矩形 43" width="0.031" height="7.797" transform="translate(1.594)" fill="#c56054"/>
+                    <rect id="矩形_44" data-name="矩形 44" width="0.031" height="7.797" transform="translate(1.625)" fill="#c56154"/>
+                    <rect id="矩形_45" data-name="矩形 45" width="0.031" height="7.797" transform="translate(1.656)" fill="#c56254"/>
+                    <rect id="矩形_46" data-name="矩形 46" width="0.031" height="7.797" transform="translate(1.688)" fill="#c66354"/>
+                    <rect id="矩形_47" data-name="矩形 47" width="0.031" height="7.797" transform="translate(1.719)" fill="#c66454"/>
+                    <rect id="矩形_48" data-name="矩形 48" width="0.031" height="7.797" transform="translate(1.75)" fill="#c76553"/>
+                    <rect id="矩形_49" data-name="矩形 49" width="0.031" height="7.797" transform="translate(1.782)" fill="#c76653"/>
+                    <rect id="矩形_50" data-name="矩形 50" width="0.031" height="7.797" transform="translate(1.813)" fill="#c76753"/>
+                    <rect id="矩形_51" data-name="矩形 51" width="0.031" height="7.797" transform="translate(1.845)" fill="#c86853"/>
+                    <rect id="矩形_52" data-name="矩形 52" width="0.031" height="7.797" transform="translate(1.876)" fill="#c86953"/>
+                    <rect id="矩形_53" data-name="矩形 53" width="0.031" height="7.797" transform="translate(1.907)" fill="#c96a53"/>
+                    <rect id="矩形_54" data-name="矩形 54" width="0.031" height="7.797" transform="translate(1.939)" fill="#c96b53"/>
+                    <rect id="矩形_55" data-name="矩形 55" width="0.031" height="7.797" transform="translate(1.97)" fill="#ca6c53"/>
+                    <rect id="矩形_56" data-name="矩形 56" width="0.031" height="7.797" transform="translate(2.001)" fill="#ca6d53"/>
+                    <rect id="矩形_57" data-name="矩形 57" width="0.031" height="7.797" transform="translate(2.033)" fill="#ca6e53"/>
+                    <rect id="矩形_58" data-name="矩形 58" width="0.031" height="7.797" transform="translate(2.064)" fill="#cb6f52"/>
+                    <rect id="矩形_59" data-name="矩形 59" width="0.031" height="7.797" transform="translate(2.095)" fill="#cb7052"/>
+                    <rect id="矩形_60" data-name="矩形 60" width="0.031" height="7.797" transform="translate(2.127)" fill="#cc7152"/>
+                    <rect id="矩形_61" data-name="矩形 61" width="0.031" height="7.797" transform="translate(2.158)" fill="#cc7252"/>
+                    <rect id="矩形_62" data-name="矩形 62" width="0.031" height="7.797" transform="translate(2.189)" fill="#cc7352"/>
+                    <rect id="矩形_63" data-name="矩形 63" width="0.031" height="7.797" transform="translate(2.221)" fill="#cd7452"/>
+                    <rect id="矩形_64" data-name="矩形 64" width="0.031" height="7.797" transform="translate(2.252)" fill="#cd7552"/>
+                    <rect id="矩形_65" data-name="矩形 65" width="0.031" height="7.797" transform="translate(2.283)" fill="#ce7652"/>
+                    <rect id="矩形_66" data-name="矩形 66" width="0.031" height="7.797" transform="translate(2.315)" fill="#ce7752"/>
+                    <rect id="矩形_67" data-name="矩形 67" width="0.031" height="7.797" transform="translate(2.346)" fill="#cf7852"/>
+                    <rect id="矩形_68" data-name="矩形 68" width="0.031" height="7.797" transform="translate(2.378)" fill="#cf7951"/>
+                    <rect id="矩形_69" data-name="矩形 69" width="0.031" height="7.797" transform="translate(2.409)" fill="#cf7a51"/>
+                    <rect id="矩形_70" data-name="矩形 70" width="0.031" height="7.797" transform="translate(2.44)" fill="#d07b51"/>
+                    <rect id="矩形_71" data-name="矩形 71" width="0.031" height="7.797" transform="translate(2.472)" fill="#d07c51"/>
+                    <rect id="矩形_72" data-name="矩形 72" width="0.031" height="7.797" transform="translate(2.503)" fill="#d17d51"/>
+                    <rect id="矩形_73" data-name="矩形 73" width="0.031" height="7.797" transform="translate(2.534)" fill="#d17e51"/>
+                    <rect id="矩形_74" data-name="矩形 74" width="0.031" height="7.797" transform="translate(2.566)" fill="#d17f51"/>
+                    <rect id="矩形_75" data-name="矩形 75" width="0.031" height="7.797" transform="translate(2.597)" fill="#d28051"/>
+                    <rect id="矩形_76" data-name="矩形 76" width="0.031" height="7.797" transform="translate(2.628)" fill="#d28151"/>
+                    <rect id="矩形_77" data-name="矩形 77" width="0.031" height="7.797" transform="translate(2.66)" fill="#d38251"/>
+                    <rect id="矩形_78" data-name="矩形 78" width="0.031" height="7.797" transform="translate(2.691)" fill="#d38350"/>
+                    <rect id="矩形_79" data-name="矩形 79" width="0.031" height="7.797" transform="translate(2.722)" fill="#d38450"/>
+                    <rect id="矩形_80" data-name="矩形 80" width="0.031" height="7.797" transform="translate(2.754)" fill="#d48550"/>
+                    <rect id="矩形_81" data-name="矩形 81" width="0.031" height="7.797" transform="translate(2.785)" fill="#d48650"/>
+                    <rect id="矩形_82" data-name="矩形 82" width="0.031" height="7.797" transform="translate(2.816)" fill="#d58750"/>
+                    <rect id="矩形_83" data-name="矩形 83" width="0.031" height="7.797" transform="translate(2.848)" fill="#d58850"/>
+                    <rect id="矩形_84" data-name="矩形 84" width="0.031" height="7.797" transform="translate(2.879)" fill="#d68950"/>
+                    <rect id="矩形_85" data-name="矩形 85" width="0.031" height="7.797" transform="translate(2.911)" fill="#d68a50"/>
+                    <rect id="矩形_86" data-name="矩形 86" width="0.031" height="7.797" transform="translate(2.942)" fill="#d68b50"/>
+                    <rect id="矩形_87" data-name="矩形 87" width="0.031" height="7.797" transform="translate(2.973)" fill="#d78c50"/>
+                    <rect id="矩形_88" data-name="矩形 88" width="0.031" height="7.797" transform="translate(3.005)" fill="#d78e4f"/>
+                    <rect id="矩形_89" data-name="矩形 89" width="0.031" height="7.797" transform="translate(3.036)" fill="#d88f4f"/>
+                    <rect id="矩形_90" data-name="矩形 90" width="0.031" height="7.797" transform="translate(3.067)" fill="#d8904f"/>
+                    <rect id="矩形_91" data-name="矩形 91" width="0.031" height="7.797" transform="translate(3.099)" fill="#d8914f"/>
+                    <rect id="矩形_92" data-name="矩形 92" width="0.031" height="7.797" transform="translate(3.13)" fill="#d9924f"/>
+                    <rect id="矩形_93" data-name="矩形 93" width="0.031" height="7.797" transform="translate(3.161)" fill="#d9934f"/>
+                    <rect id="矩形_94" data-name="矩形 94" width="0.031" height="7.797" transform="translate(3.193)" fill="#da944f"/>
+                    <rect id="矩形_95" data-name="矩形 95" width="0.031" height="7.797" transform="translate(3.224)" fill="#da954f"/>
+                    <rect id="矩形_96" data-name="矩形 96" width="0.031" height="7.797" transform="translate(3.255)" fill="#db964f"/>
+                    <rect id="矩形_97" data-name="矩形 97" width="0.031" height="7.797" transform="translate(3.287)" fill="#db974f"/>
+                    <rect id="矩形_98" data-name="矩形 98" width="0.031" height="7.797" transform="translate(3.318)" fill="#db984e"/>
+                    <rect id="矩形_99" data-name="矩形 99" width="0.031" height="7.797" transform="translate(3.349)" fill="#dc994e"/>
+                    <rect id="矩形_100" data-name="矩形 100" width="0.031" height="7.797" transform="translate(3.381)" fill="#dc9a4e"/>
+                    <rect id="矩形_101" data-name="矩形 101" width="0.031" height="7.797" transform="translate(3.412)" fill="#dd9b4e"/>
+                    <rect id="矩形_102" data-name="矩形 102" width="0.031" height="7.797" transform="translate(3.444)" fill="#dd9c4e"/>
+                    <rect id="矩形_103" data-name="矩形 103" width="0.031" height="7.797" transform="translate(3.475)" fill="#dd9d4e"/>
+                    <rect id="矩形_104" data-name="矩形 104" width="0.031" height="7.797" transform="translate(3.506)" fill="#de9e4e"/>
+                    <rect id="矩形_105" data-name="矩形 105" width="0.031" height="7.797" transform="translate(3.538)" fill="#de9f4e"/>
+                    <rect id="矩形_106" data-name="矩形 106" width="0.031" height="7.797" transform="translate(3.569)" fill="#dfa04e"/>
+                    <rect id="矩形_107" data-name="矩形 107" width="0.031" height="7.797" transform="translate(3.6)" fill="#dfa14e"/>
+                    <rect id="矩形_108" data-name="矩形 108" width="0.031" height="7.797" transform="translate(3.632)" fill="#dfa24d"/>
+                    <rect id="矩形_109" data-name="矩形 109" width="0.031" height="7.797" transform="translate(3.663)" fill="#e0a34d"/>
+                    <rect id="矩形_110" data-name="矩形 110" width="0.031" height="7.797" transform="translate(3.694)" fill="#e0a44d"/>
+                    <rect id="矩形_111" data-name="矩形 111" width="0.031" height="7.797" transform="translate(3.726)" fill="#e1a54d"/>
+                    <rect id="矩形_112" data-name="矩形 112" width="0.031" height="7.797" transform="translate(3.757)" fill="#e1a64d"/>
+                    <rect id="矩形_113" data-name="矩形 113" width="0.031" height="7.797" transform="translate(3.788)" fill="#e2a74d"/>
+                    <rect id="矩形_114" data-name="矩形 114" width="0.031" height="7.797" transform="translate(3.82)" fill="#e2a84d"/>
+                    <rect id="矩形_115" data-name="矩形 115" width="0.031" height="7.797" transform="translate(3.851)" fill="#e2a94d"/>
+                    <rect id="矩形_116" data-name="矩形 116" width="0.031" height="7.797" transform="translate(3.882)" fill="#e3aa4d"/>
+                    <rect id="矩形_117" data-name="矩形 117" width="0.031" height="7.797" transform="translate(3.914)" fill="#e3ab4d"/>
+                    <rect id="矩形_118" data-name="矩形 118" width="0.031" height="7.797" transform="translate(3.945)" fill="#e4ac4c"/>
+                    <rect id="矩形_119" data-name="矩形 119" width="0.031" height="7.797" transform="translate(3.977)" fill="#e4ad4c"/>
+                    <rect id="矩形_120" data-name="矩形 120" width="0.031" height="7.797" transform="translate(4.008)" fill="#e4ae4c"/>
+                    <rect id="矩形_121" data-name="矩形 121" width="0.031" height="7.797" transform="translate(4.039)" fill="#e5af4c"/>
+                    <rect id="矩形_122" data-name="矩形 122" width="0.031" height="7.797" transform="translate(4.071)" fill="#e5b04c"/>
+                    <rect id="矩形_123" data-name="矩形 123" width="0.031" height="7.797" transform="translate(4.102)" fill="#e6b14c"/>
+                    <rect id="矩形_124" data-name="矩形 124" width="0.031" height="7.797" transform="translate(4.133)" fill="#e6b24c"/>
+                    <rect id="矩形_125" data-name="矩形 125" width="0.031" height="7.797" transform="translate(4.165)" fill="#e7b34c"/>
+                    <rect id="矩形_126" data-name="矩形 126" width="0.031" height="7.797" transform="translate(4.196)" fill="#e7b44c"/>
+                    <rect id="矩形_127" data-name="矩形 127" width="0.031" height="7.797" transform="translate(4.227)" fill="#e7b54c"/>
+                    <rect id="矩形_128" data-name="矩形 128" width="0.031" height="7.797" transform="translate(4.259)" fill="#e8b64b"/>
+                    <rect id="矩形_129" data-name="矩形 129" width="0.031" height="7.797" transform="translate(4.29)" fill="#e8b74b"/>
+                    <rect id="矩形_130" data-name="矩形 130" width="0.031" height="7.797" transform="translate(4.321)" fill="#e9b84b"/>
+                    <rect id="矩形_131" data-name="矩形 131" width="0.031" height="7.797" transform="translate(4.353)" fill="#e9b94b"/>
+                    <rect id="矩形_132" data-name="矩形 132" width="0.031" height="7.797" transform="translate(4.384)" fill="#e9ba4b"/>
+                    <rect id="矩形_133" data-name="矩形 133" width="0.031" height="7.797" transform="translate(4.415)" fill="#eabb4b"/>
+                    <rect id="矩形_134" data-name="矩形 134" width="0.031" height="7.797" transform="translate(4.447)" fill="#eabc4b"/>
+                    <rect id="矩形_135" data-name="矩形 135" width="0.031" height="7.797" transform="translate(4.478)" fill="#ebbd4b"/>
+                    <rect id="矩形_136" data-name="矩形 136" width="0.031" height="7.797" transform="translate(4.51)" fill="#ebbe4b"/>
+                    <rect id="矩形_137" data-name="矩形 137" width="0.031" height="7.797" transform="translate(4.541)" fill="#ecbf4b"/>
+                    <rect id="矩形_138" data-name="矩形 138" width="0.031" height="7.797" transform="translate(4.572)" fill="#ecc04a"/>
+                    <rect id="矩形_139" data-name="矩形 139" width="0.031" height="7.797" transform="translate(4.604)" fill="#ecc14a"/>
+                    <rect id="矩形_140" data-name="矩形 140" width="0.031" height="7.797" transform="translate(4.635)" fill="#edc24a"/>
+                    <rect id="矩形_141" data-name="矩形 141" width="0.031" height="7.797" transform="translate(4.666)" fill="#edc34a"/>
+                    <rect id="矩形_142" data-name="矩形 142" width="0.031" height="7.797" transform="translate(4.698)" fill="#eec44a"/>
+                    <rect id="矩形_143" data-name="矩形 143" width="0.031" height="7.797" transform="translate(4.729)" fill="#eec54a"/>
+                    <rect id="矩形_144" data-name="矩形 144" width="0.031" height="7.797" transform="translate(4.76)" fill="#eec64a"/>
+                    <rect id="矩形_145" data-name="矩形 145" width="0.031" height="7.797" transform="translate(4.792)" fill="#efc74a"/>
+                    <rect id="矩形_146" data-name="矩形 146" width="0.031" height="7.797" transform="translate(4.823)" fill="#efc84a"/>
+                    <rect id="矩形_147" data-name="矩形 147" width="0.031" height="7.797" transform="translate(4.854)" fill="#f0c94a"/>
+                    <rect id="矩形_148" data-name="矩形 148" width="0.031" height="7.797" transform="translate(4.886)" fill="#f0ca49"/>
+                    <rect id="矩形_149" data-name="矩形 149" width="0.031" height="7.797" transform="translate(4.917)" fill="#f0cb49"/>
+                    <rect id="矩形_150" data-name="矩形 150" width="0.031" height="7.797" transform="translate(4.948)" fill="#f1cc49"/>
+                    <rect id="矩形_151" data-name="矩形 151" width="0.031" height="7.797" transform="translate(4.98)" fill="#f1cd49"/>
+                    <rect id="矩形_152" data-name="矩形 152" width="0.031" height="7.797" transform="translate(5.011)" fill="#f2ce49"/>
+                    <rect id="矩形_153" data-name="矩形 153" width="0.031" height="7.797" transform="translate(5.043)" fill="#f2cf49"/>
+                    <rect id="矩形_154" data-name="矩形 154" width="0.031" height="7.797" transform="translate(5.074)" fill="#f3d049"/>
+                    <rect id="矩形_155" data-name="矩形 155" width="0.031" height="7.797" transform="translate(5.105)" fill="#f3d149"/>
+                    <rect id="矩形_156" data-name="矩形 156" width="0.031" height="7.797" transform="translate(5.137)" fill="#f3d249"/>
+                    <rect id="矩形_157" data-name="矩形 157" width="0.031" height="7.797" transform="translate(5.168)" fill="#f4d349"/>
+                    <rect id="矩形_158" data-name="矩形 158" width="0.031" height="7.797" transform="translate(5.199)" fill="#f4d448"/>
+                    <rect id="矩形_159" data-name="矩形 159" width="0.031" height="7.797" transform="translate(5.231)" fill="#f5d548"/>
+                    <rect id="矩形_160" data-name="矩形 160" width="0.031" height="7.797" transform="translate(5.262)" fill="#f5d648"/>
+                    <rect id="矩形_161" data-name="矩形 161" width="0.031" height="7.797" transform="translate(5.293)" fill="#f5d748"/>
+                    <rect id="矩形_162" data-name="矩形 162" width="0.031" height="7.797" transform="translate(5.325)" fill="#f6d848"/>
+                    <rect id="矩形_163" data-name="矩形 163" width="0.031" height="7.797" transform="translate(5.356)" fill="#f6d948"/>
+                    <rect id="矩形_164" data-name="矩形 164" width="0.031" height="7.797" transform="translate(5.387)" fill="#f7da48"/>
+                    <rect id="矩形_165" data-name="矩形 165" width="0.031" height="7.797" transform="translate(5.419)" fill="#f7db48"/>
+                    <rect id="矩形_166" data-name="矩形 166" width="0.031" height="7.797" transform="translate(5.45)" fill="#f8dc48"/>
+                    <rect id="矩形_167" data-name="矩形 167" width="0.031" height="7.797" transform="translate(5.481)" fill="#f8dd48"/>
+                    <rect id="矩形_168" data-name="矩形 168" width="0.031" height="7.797" transform="translate(5.513)" fill="#f8de47"/>
+                    <rect id="矩形_169" data-name="矩形 169" width="0.031" height="7.797" transform="translate(5.544)" fill="#f9df47"/>
+                    <rect id="矩形_170" data-name="矩形 170" width="0.031" height="7.797" transform="translate(5.576)" fill="#f9e047"/>
+                    <rect id="矩形_171" data-name="矩形 171" width="0.031" height="7.797" transform="translate(5.607)" fill="#fae147"/>
+                    <rect id="矩形_172" data-name="矩形 172" width="0.031" height="7.797" transform="translate(5.638)" fill="#fae247"/>
+                    <rect id="矩形_173" data-name="矩形 173" width="7.842" height="7.797" transform="translate(5.67)" fill="#fae247"/>
+                    <rect id="矩形_174" data-name="矩形 174" width="0.458" height="7.797" transform="translate(13.511)" fill="#fae247"/>
+                  </g>
+                </g>
+              </g>
+              <g id="直线-3" transform="translate(30.711 17.714)">
+                <g id="组_4" data-name="组 4">
+                  <g id="组_3" data-name="组 3" clip-path="url(#clip-path-2)">
+                    <rect id="矩形_175" data-name="矩形 175" width="7.752" height="0.862" transform="translate(0 23.128)" fill="#e7446b"/>
+                    <rect id="矩形_176" data-name="矩形 176" width="7.752" height="0.141" transform="translate(0 22.987)" fill="#e7446b"/>
+                    <rect id="矩形_177" data-name="矩形 177" width="7.752" height="0.141" transform="translate(0 22.846)" fill="#e7456b"/>
+                    <rect id="矩形_178" data-name="矩形 178" width="7.752" height="0.141" transform="translate(0 22.704)" fill="#e7466b"/>
+                    <rect id="矩形_179" data-name="矩形 179" width="7.752" height="0.141" transform="translate(0 22.563)" fill="#e7476a"/>
+                    <rect id="矩形_180" data-name="矩形 180" width="7.752" height="0.141" transform="translate(0 22.421)" fill="#e7486a"/>
+                    <rect id="矩形_181" data-name="矩形 181" width="7.752" height="0.141" transform="translate(0 22.28)" fill="#e8496a"/>
+                    <rect id="矩形_182" data-name="矩形 182" width="7.752" height="0.141" transform="translate(0 22.139)" fill="#e84a6a"/>
+                    <rect id="矩形_183" data-name="矩形 183" width="7.752" height="0.141" transform="translate(0 21.997)" fill="#e84b69"/>
+                    <rect id="矩形_184" data-name="矩形 184" width="7.752" height="0.141" transform="translate(0 21.856)" fill="#e84c69"/>
+                    <rect id="矩形_185" data-name="矩形 185" width="7.752" height="0.141" transform="translate(0 21.715)" fill="#e84d69"/>
+                    <rect id="矩形_186" data-name="矩形 186" width="7.752" height="0.141" transform="translate(0 21.573)" fill="#e84e69"/>
+                    <rect id="矩形_187" data-name="矩形 187" width="7.752" height="0.141" transform="translate(0 21.432)" fill="#e84f68"/>
+                    <rect id="矩形_188" data-name="矩形 188" width="7.752" height="0.141" transform="translate(0 21.29)" fill="#e85068"/>
+                    <rect id="矩形_189" data-name="矩形 189" width="7.752" height="0.141" transform="translate(0 21.149)" fill="#e95168"/>
+                    <rect id="矩形_190" data-name="矩形 190" width="7.752" height="0.141" transform="translate(0 21.008)" fill="#e95268"/>
+                    <rect id="矩形_191" data-name="矩形 191" width="7.752" height="0.141" transform="translate(0 20.866)" fill="#e95368"/>
+                    <rect id="矩形_192" data-name="矩形 192" width="7.752" height="0.141" transform="translate(0 20.725)" fill="#e95467"/>
+                    <rect id="矩形_193" data-name="矩形 193" width="7.752" height="0.141" transform="translate(0 20.583)" fill="#e95567"/>
+                    <rect id="矩形_194" data-name="矩形 194" width="7.752" height="0.141" transform="translate(0 20.442)" fill="#e95667"/>
+                    <rect id="矩形_195" data-name="矩形 195" width="7.752" height="0.141" transform="translate(0 20.301)" fill="#e95767"/>
+                    <rect id="矩形_196" data-name="矩形 196" width="7.752" height="0.141" transform="translate(0 20.159)" fill="#e95866"/>
+                    <rect id="矩形_197" data-name="矩形 197" width="7.752" height="0.141" transform="translate(0 20.018)" fill="#ea5966"/>
+                    <rect id="矩形_198" data-name="矩形 198" width="7.752" height="0.141" transform="translate(0 19.877)" fill="#ea5a66"/>
+                    <rect id="矩形_199" data-name="矩形 199" width="7.752" height="0.141" transform="translate(0 19.735)" fill="#ea5b66"/>
+                    <rect id="矩形_200" data-name="矩形 200" width="7.752" height="0.141" transform="translate(0 19.594)" fill="#ea5c65"/>
+                    <rect id="矩形_201" data-name="矩形 201" width="7.752" height="0.141" transform="translate(0 19.452)" fill="#ea5d65"/>
+                    <rect id="矩形_202" data-name="矩形 202" width="7.752" height="0.141" transform="translate(0 19.311)" fill="#ea5e65"/>
+                    <rect id="矩形_203" data-name="矩形 203" width="7.752" height="0.141" transform="translate(0 19.17)" fill="#ea5f65"/>
+                    <rect id="矩形_204" data-name="矩形 204" width="7.752" height="0.141" transform="translate(0 19.028)" fill="#ea6065"/>
+                    <rect id="矩形_205" data-name="矩形 205" width="7.752" height="0.141" transform="translate(0 18.887)" fill="#eb6164"/>
+                    <rect id="矩形_206" data-name="矩形 206" width="7.752" height="0.141" transform="translate(0 18.746)" fill="#eb6264"/>
+                    <rect id="矩形_207" data-name="矩形 207" width="7.752" height="0.141" transform="translate(0 18.604)" fill="#eb6364"/>
+                    <rect id="矩形_208" data-name="矩形 208" width="7.752" height="0.141" transform="translate(0 18.463)" fill="#eb6464"/>
+                    <rect id="矩形_209" data-name="矩形 209" width="7.752" height="0.141" transform="translate(0 18.321)" fill="#eb6563"/>
+                    <rect id="矩形_210" data-name="矩形 210" width="7.752" height="0.141" transform="translate(0 18.18)" fill="#eb6663"/>
+                    <rect id="矩形_211" data-name="矩形 211" width="7.752" height="0.141" transform="translate(0 18.039)" fill="#eb6763"/>
+                    <rect id="矩形_212" data-name="矩形 212" width="7.752" height="0.141" transform="translate(0 17.897)" fill="#eb6863"/>
+                    <rect id="矩形_213" data-name="矩形 213" width="7.752" height="0.141" transform="translate(0 17.756)" fill="#eb6963"/>
+                    <rect id="矩形_214" data-name="矩形 214" width="7.752" height="0.141" transform="translate(0 17.615)" fill="#ec6a62"/>
+                    <rect id="矩形_215" data-name="矩形 215" width="7.752" height="0.141" transform="translate(0 17.473)" fill="#ec6b62"/>
+                    <rect id="矩形_216" data-name="矩形 216" width="7.752" height="0.141" transform="translate(0 17.332)" fill="#ec6c62"/>
+                    <rect id="矩形_217" data-name="矩形 217" width="7.752" height="0.141" transform="translate(0 17.19)" fill="#ec6d62"/>
+                    <rect id="矩形_218" data-name="矩形 218" width="7.752" height="0.141" transform="translate(0 17.049)" fill="#ec6e61"/>
+                    <rect id="矩形_219" data-name="矩形 219" width="7.752" height="0.141" transform="translate(0 16.908)" fill="#ec6f61"/>
+                    <rect id="矩形_220" data-name="矩形 220" width="7.752" height="0.141" transform="translate(0 16.766)" fill="#ec7061"/>
+                    <rect id="矩形_221" data-name="矩形 221" width="7.752" height="0.141" transform="translate(0 16.625)" fill="#ec7161"/>
+                    <rect id="矩形_222" data-name="矩形 222" width="7.752" height="0.141" transform="translate(0 16.483)" fill="#ed7260"/>
+                    <rect id="矩形_223" data-name="矩形 223" width="7.752" height="0.141" transform="translate(0 16.342)" fill="#ed7360"/>
+                    <rect id="矩形_224" data-name="矩形 224" width="7.752" height="0.141" transform="translate(0 16.201)" fill="#ed7460"/>
+                    <rect id="矩形_225" data-name="矩形 225" width="7.752" height="0.141" transform="translate(0 16.059)" fill="#ed7560"/>
+                    <rect id="矩形_226" data-name="矩形 226" width="7.752" height="0.141" transform="translate(0 15.918)" fill="#ed7660"/>
+                    <rect id="矩形_227" data-name="矩形 227" width="7.752" height="0.141" transform="translate(0 15.777)" fill="#ed775f"/>
+                    <rect id="矩形_228" data-name="矩形 228" width="7.752" height="0.141" transform="translate(0 15.635)" fill="#ed785f"/>
+                    <rect id="矩形_229" data-name="矩形 229" width="7.752" height="0.141" transform="translate(0 15.494)" fill="#ed795f"/>
+                    <rect id="矩形_230" data-name="矩形 230" width="7.752" height="0.141" transform="translate(0 15.352)" fill="#ee7a5f"/>
+                    <rect id="矩形_231" data-name="矩形 231" width="7.752" height="0.141" transform="translate(0 15.211)" fill="#ee7b5e"/>
+                    <rect id="矩形_232" data-name="矩形 232" width="7.752" height="0.141" transform="translate(0 15.07)" fill="#ee7c5e"/>
+                    <rect id="矩形_233" data-name="矩形 233" width="7.752" height="0.141" transform="translate(0 14.928)" fill="#ee7d5e"/>
+                    <rect id="矩形_234" data-name="矩形 234" width="7.752" height="0.141" transform="translate(0 14.787)" fill="#ee7e5e"/>
+                    <rect id="矩形_235" data-name="矩形 235" width="7.752" height="0.141" transform="translate(0 14.646)" fill="#ee7f5d"/>
+                    <rect id="矩形_236" data-name="矩形 236" width="7.752" height="0.141" transform="translate(0 14.504)" fill="#ee805d"/>
+                    <rect id="矩形_237" data-name="矩形 237" width="7.752" height="0.141" transform="translate(0 14.363)" fill="#ee815d"/>
+                    <rect id="矩形_238" data-name="矩形 238" width="7.752" height="0.141" transform="translate(0 14.221)" fill="#ef825d"/>
+                    <rect id="矩形_239" data-name="矩形 239" width="7.752" height="0.141" transform="translate(0 14.08)" fill="#ef835d"/>
+                    <rect id="矩形_240" data-name="矩形 240" width="7.752" height="0.141" transform="translate(0 13.939)" fill="#ef845c"/>
+                    <rect id="矩形_241" data-name="矩形 241" width="7.752" height="0.141" transform="translate(0 13.797)" fill="#ef855c"/>
+                    <rect id="矩形_242" data-name="矩形 242" width="7.752" height="0.141" transform="translate(0 13.656)" fill="#ef865c"/>
+                    <rect id="矩形_243" data-name="矩形 243" width="7.752" height="0.141" transform="translate(0 13.514)" fill="#ef875c"/>
+                    <rect id="矩形_244" data-name="矩形 244" width="7.752" height="0.141" transform="translate(0 13.373)" fill="#ef885b"/>
+                    <rect id="矩形_245" data-name="矩形 245" width="7.752" height="0.141" transform="translate(0 13.232)" fill="#ef895b"/>
+                    <rect id="矩形_246" data-name="矩形 246" width="7.752" height="0.141" transform="translate(0 13.09)" fill="#ef8a5b"/>
+                    <rect id="矩形_247" data-name="矩形 247" width="7.752" height="0.141" transform="translate(0 12.949)" fill="#f08b5b"/>
+                    <rect id="矩形_248" data-name="矩形 248" width="7.752" height="0.141" transform="translate(0 12.808)" fill="#f08c5a"/>
+                    <rect id="矩形_249" data-name="矩形 249" width="7.752" height="0.141" transform="translate(0 12.666)" fill="#f08d5a"/>
+                    <rect id="矩形_250" data-name="矩形 250" width="7.752" height="0.141" transform="translate(0 12.525)" fill="#f08e5a"/>
+                    <rect id="矩形_251" data-name="矩形 251" width="7.752" height="0.141" transform="translate(0 12.383)" fill="#f08f5a"/>
+                    <rect id="矩形_252" data-name="矩形 252" width="7.752" height="0.141" transform="translate(0 12.242)" fill="#f0905a"/>
+                    <rect id="矩形_253" data-name="矩形 253" width="7.752" height="0.141" transform="translate(0 12.101)" fill="#f09159"/>
+                    <rect id="矩形_254" data-name="矩形 254" width="7.752" height="0.141" transform="translate(0 11.959)" fill="#f09259"/>
+                    <rect id="矩形_255" data-name="矩形 255" width="7.752" height="0.141" transform="translate(0 11.818)" fill="#f19459"/>
+                    <rect id="矩形_256" data-name="矩形 256" width="7.752" height="0.141" transform="translate(0 11.677)" fill="#f19559"/>
+                    <rect id="矩形_257" data-name="矩形 257" width="7.752" height="0.141" transform="translate(0 11.535)" fill="#f19658"/>
+                    <rect id="矩形_258" data-name="矩形 258" width="7.752" height="0.141" transform="translate(0 11.394)" fill="#f19758"/>
+                    <rect id="矩形_259" data-name="矩形 259" width="7.752" height="0.141" transform="translate(0 11.252)" fill="#f19858"/>
+                    <rect id="矩形_260" data-name="矩形 260" width="7.752" height="0.141" transform="translate(0 11.111)" fill="#f19958"/>
+                    <rect id="矩形_261" data-name="矩形 261" width="7.752" height="0.141" transform="translate(0 10.97)" fill="#f19a58"/>
+                    <rect id="矩形_262" data-name="矩形 262" width="7.752" height="0.141" transform="translate(0 10.828)" fill="#f19b57"/>
+                    <rect id="矩形_263" data-name="矩形 263" width="7.752" height="0.141" transform="translate(0 10.687)" fill="#f29c57"/>
+                    <rect id="矩形_264" data-name="矩形 264" width="7.752" height="0.141" transform="translate(0 10.546)" fill="#f29d57"/>
+                    <rect id="矩形_265" data-name="矩形 265" width="7.752" height="0.141" transform="translate(0 10.404)" fill="#f29e57"/>
+                    <rect id="矩形_266" data-name="矩形 266" width="7.752" height="0.141" transform="translate(0 10.263)" fill="#f29f56"/>
+                    <rect id="矩形_267" data-name="矩形 267" width="7.752" height="0.141" transform="translate(0 10.121)" fill="#f2a056"/>
+                    <rect id="矩形_268" data-name="矩形 268" width="7.752" height="0.141" transform="translate(0 9.98)" fill="#f2a156"/>
+                    <rect id="矩形_269" data-name="矩形 269" width="7.752" height="0.141" transform="translate(0 9.839)" fill="#f2a256"/>
+                    <rect id="矩形_270" data-name="矩形 270" width="7.752" height="0.141" transform="translate(0 9.697)" fill="#f2a355"/>
+                    <rect id="矩形_271" data-name="矩形 271" width="7.752" height="0.141" transform="translate(0 9.556)" fill="#f2a455"/>
+                    <rect id="矩形_272" data-name="矩形 272" width="7.752" height="0.141" transform="translate(0 9.414)" fill="#f3a555"/>
+                    <rect id="矩形_273" data-name="矩形 273" width="7.752" height="0.141" transform="translate(0 9.273)" fill="#f3a655"/>
+                    <rect id="矩形_274" data-name="矩形 274" width="7.752" height="0.141" transform="translate(0 9.132)" fill="#f3a755"/>
+                    <rect id="矩形_275" data-name="矩形 275" width="7.752" height="0.141" transform="translate(0 8.99)" fill="#f3a854"/>
+                    <rect id="矩形_276" data-name="矩形 276" width="7.752" height="0.141" transform="translate(0 8.849)" fill="#f3a954"/>
+                    <rect id="矩形_277" data-name="矩形 277" width="7.752" height="0.141" transform="translate(0 8.708)" fill="#f3aa54"/>
+                    <rect id="矩形_278" data-name="矩形 278" width="7.752" height="0.141" transform="translate(0 8.566)" fill="#f3ab54"/>
+                    <rect id="矩形_279" data-name="矩形 279" width="7.752" height="0.141" transform="translate(0 8.425)" fill="#f3ac53"/>
+                    <rect id="矩形_280" data-name="矩形 280" width="7.752" height="0.141" transform="translate(0 8.283)" fill="#f4ad53"/>
+                    <rect id="矩形_281" data-name="矩形 281" width="7.752" height="0.141" transform="translate(0 8.142)" fill="#f4ae53"/>
+                    <rect id="矩形_282" data-name="矩形 282" width="7.752" height="0.141" transform="translate(0 8.001)" fill="#f4af53"/>
+                    <rect id="矩形_283" data-name="矩形 283" width="7.752" height="0.141" transform="translate(0 7.859)" fill="#f4b052"/>
+                    <rect id="矩形_284" data-name="矩形 284" width="7.752" height="0.141" transform="translate(0 7.718)" fill="#f4b152"/>
+                    <rect id="矩形_285" data-name="矩形 285" width="7.752" height="0.141" transform="translate(0 7.577)" fill="#f4b252"/>
+                    <rect id="矩形_286" data-name="矩形 286" width="7.752" height="0.141" transform="translate(0 7.435)" fill="#f4b352"/>
+                    <rect id="矩形_287" data-name="矩形 287" width="7.752" height="0.141" transform="translate(0 7.294)" fill="#f4b452"/>
+                    <rect id="矩形_288" data-name="矩形 288" width="7.752" height="0.141" transform="translate(0 7.152)" fill="#f5b551"/>
+                    <rect id="矩形_289" data-name="矩形 289" width="7.752" height="0.141" transform="translate(0 7.011)" fill="#f5b651"/>
+                    <rect id="矩形_290" data-name="矩形 290" width="7.752" height="0.141" transform="translate(0 6.87)" fill="#f5b751"/>
+                    <rect id="矩形_291" data-name="矩形 291" width="7.752" height="0.141" transform="translate(0 6.728)" fill="#f5b851"/>
+                    <rect id="矩形_292" data-name="矩形 292" width="7.752" height="0.141" transform="translate(0 6.587)" fill="#f5b950"/>
+                    <rect id="矩形_293" data-name="矩形 293" width="7.752" height="0.141" transform="translate(0 6.446)" fill="#f5ba50"/>
+                    <rect id="矩形_294" data-name="矩形 294" width="7.752" height="0.141" transform="translate(0 6.304)" fill="#f5bb50"/>
+                    <rect id="矩形_295" data-name="矩形 295" width="7.752" height="0.141" transform="translate(0 6.163)" fill="#f5bc50"/>
+                    <rect id="矩形_296" data-name="矩形 296" width="7.752" height="0.141" transform="translate(0 6.021)" fill="#f6bd4f"/>
+                    <rect id="矩形_297" data-name="矩形 297" width="7.752" height="0.141" transform="translate(0 5.88)" fill="#f6be4f"/>
+                    <rect id="矩形_298" data-name="矩形 298" width="7.752" height="0.141" transform="translate(0 5.739)" fill="#f6bf4f"/>
+                    <rect id="矩形_299" data-name="矩形 299" width="7.752" height="0.141" transform="translate(0 5.597)" fill="#f6c04f"/>
+                    <rect id="矩形_300" data-name="矩形 300" width="7.752" height="0.141" transform="translate(0 5.456)" fill="#f6c14f"/>
+                    <rect id="矩形_301" data-name="矩形 301" width="7.752" height="0.141" transform="translate(0 5.314)" fill="#f6c24e"/>
+                    <rect id="矩形_302" data-name="矩形 302" width="7.752" height="0.141" transform="translate(0 5.173)" fill="#f6c34e"/>
+                    <rect id="矩形_303" data-name="矩形 303" width="7.752" height="0.141" transform="translate(0 5.032)" fill="#f6c44e"/>
+                    <rect id="矩形_304" data-name="矩形 304" width="7.752" height="0.141" transform="translate(0 4.89)" fill="#f6c54e"/>
+                    <rect id="矩形_305" data-name="矩形 305" width="7.752" height="0.141" transform="translate(0 4.749)" fill="#f7c64d"/>
+                    <rect id="矩形_306" data-name="矩形 306" width="7.752" height="0.141" transform="translate(0 4.608)" fill="#f7c74d"/>
+                    <rect id="矩形_307" data-name="矩形 307" width="7.752" height="0.141" transform="translate(0 4.466)" fill="#f7c84d"/>
+                    <rect id="矩形_308" data-name="矩形 308" width="7.752" height="0.141" transform="translate(0 4.325)" fill="#f7c94d"/>
+                    <rect id="矩形_309" data-name="矩形 309" width="7.752" height="0.141" transform="translate(0 4.183)" fill="#f7ca4d"/>
+                    <rect id="矩形_310" data-name="矩形 310" width="7.752" height="0.141" transform="translate(0 4.042)" fill="#f7cb4c"/>
+                    <rect id="矩形_311" data-name="矩形 311" width="7.752" height="0.141" transform="translate(0 3.901)" fill="#f7cc4c"/>
+                    <rect id="矩形_312" data-name="矩形 312" width="7.752" height="0.141" transform="translate(0 3.759)" fill="#f7cd4c"/>
+                    <rect id="矩形_313" data-name="矩形 313" width="7.752" height="0.141" transform="translate(0 3.618)" fill="#f8ce4c"/>
+                    <rect id="矩形_314" data-name="矩形 314" width="7.752" height="0.141" transform="translate(0 3.477)" fill="#f8cf4b"/>
+                    <rect id="矩形_315" data-name="矩形 315" width="7.752" height="0.141" transform="translate(0 3.335)" fill="#f8d04b"/>
+                    <rect id="矩形_316" data-name="矩形 316" width="7.752" height="0.141" transform="translate(0 3.194)" fill="#f8d14b"/>
+                    <rect id="矩形_317" data-name="矩形 317" width="7.752" height="0.141" transform="translate(0 3.052)" fill="#f8d24b"/>
+                    <rect id="矩形_318" data-name="矩形 318" width="7.752" height="0.141" transform="translate(0 2.911)" fill="#f8d34a"/>
+                    <rect id="矩形_319" data-name="矩形 319" width="7.752" height="0.141" transform="translate(0 2.77)" fill="#f8d44a"/>
+                    <rect id="矩形_320" data-name="矩形 320" width="7.752" height="0.141" transform="translate(0 2.628)" fill="#f8d54a"/>
+                    <rect id="矩形_321" data-name="矩形 321" width="7.752" height="0.141" transform="translate(0 2.487)" fill="#f9d64a"/>
+                    <rect id="矩形_322" data-name="矩形 322" width="7.752" height="0.141" transform="translate(0 2.345)" fill="#f9d74a"/>
+                    <rect id="矩形_323" data-name="矩形 323" width="7.752" height="0.141" transform="translate(0 2.204)" fill="#f9d849"/>
+                    <rect id="矩形_324" data-name="矩形 324" width="7.752" height="0.141" transform="translate(0 2.063)" fill="#f9d949"/>
+                    <rect id="矩形_325" data-name="矩形 325" width="7.752" height="0.141" transform="translate(0 1.921)" fill="#f9da49"/>
+                    <rect id="矩形_326" data-name="矩形 326" width="7.752" height="0.141" transform="translate(0 1.78)" fill="#f9db49"/>
+                    <rect id="矩形_327" data-name="矩形 327" width="7.752" height="0.141" transform="translate(0 1.639)" fill="#f9dc48"/>
+                    <rect id="矩形_328" data-name="矩形 328" width="7.752" height="0.141" transform="translate(0 1.497)" fill="#f9dd48"/>
+                    <rect id="矩形_329" data-name="矩形 329" width="7.752" height="0.141" transform="translate(0 1.356)" fill="#fade48"/>
+                    <rect id="矩形_330" data-name="矩形 330" width="7.752" height="0.141" transform="translate(0 1.214)" fill="#fadf48"/>
+                    <rect id="矩形_331" data-name="矩形 331" width="7.752" height="0.141" transform="translate(0 1.073)" fill="#fae047"/>
+                    <rect id="矩形_332" data-name="矩形 332" width="7.752" height="0.141" transform="translate(0 0.932)" fill="#fae147"/>
+                    <rect id="矩形_333" data-name="矩形 333" width="7.752" height="0.141" transform="translate(0 0.79)" fill="#fae247"/>
+                    <rect id="矩形_334" data-name="矩形 334" width="7.752" height="0.79" fill="#fae247"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="组_7" data-name="组 7" transform="translate(159.083 63.655)">
+      <g id="组_6" data-name="组 6" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+        <g id="组_5" data-name="组 5" transform="translate(-195.531 -295.142)" clip-path="url(#clip-path-4)">
+          <path id="路径_5" data-name="路径 5" d="M-5-98H192.991v31.666H-5Z" transform="translate(198.994 391.605)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

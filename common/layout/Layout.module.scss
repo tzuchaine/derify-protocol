@@ -1,0 +1,95 @@
+@import "../const.scss";
+
+.root {
+  width: 100%;
+  min-height: 100vh;
+  // display: flex;
+  // flex-direction: column;
+  position: relative;
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    // background-color: #000;
+    color: $text-color-secondary;
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 1.5rem 1rem;
+
+      .brand {
+        flex-shrink: 0;
+        text-align: left;
+
+        > img {
+          height: 3.75rem;
+          width: 17.125rem;
+          display: inline-block;
+        }
+
+      }
+
+      .nav {
+        flex: 1;
+        text-align: right;
+
+        > ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+
+          > li {
+            height: 2.75rem;
+            line-height: 2.75rem;
+            padding: 0 1.5rem;
+            cursor: pointer;
+            box-sizing: border-box;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+              color: $text-color;
+            }
+
+            &.active {
+              color: $secondary-color;
+              border-radius: 3px;
+              @include border-solid($width: 3px, $color: $secondary-color);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    flex: 1;
+  }
+
+  .footer {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    right: 1.5rem;
+    padding: 6px 0 1.2rem;
+    background-color: rgb(24, 24, 37);
+    border-radius: 64px 64px 0 0;
+
+    .copyright {
+      font-size: 0.75rem;
+      color: $text-color-secondary;
+      line-height: 2rem;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../common/const.scss";
+
+.root {
+  background-color: rgb(16, 19, 33);
+  color: $text-color;
+  width: 100vw;
+
+  .container {
+    background-color: rgba(#FFF, 0.06);
+    border-radius: 12px 12px 0 0;
+    padding: 4rem 1.5rem;
+  }
+
+  .title {
+    margin-bottom: 4rem;
+
+    > h2 {
+      font-size: 1.875rem;
+      font-weight: 500;
+      line-height: 1.5;
+      margin: 0;
+    }
+  }
+
+  .subtitle {
+    > p {
+      font-size: 0.875rem;
+      color: $text-color-secondary;
+    }
+  }
+
+  .action {
+    margin-top: 4rem;
+    text-align: center;
+  }
+}

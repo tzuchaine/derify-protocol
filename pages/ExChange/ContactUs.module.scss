@@ -1,0 +1,41 @@
+
+@import "../../common/const.scss";
+
+.root {
+  background-color: rgb(16, 19, 33);
+  color: $text-color;
+  width: 100vw;
+  padding: 6rem 0;
+
+  .title {
+    margin-bottom: 4rem;
+
+    > h2 {
+      font-size: 1.875rem;
+      font-weight: 500;
+      line-height: 1.5;
+      margin: 0;
+    }
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      cursor: pointer;
+      color: #888;
+      width: 42px;
+      height: 42px;
+      margin: 0 12px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
