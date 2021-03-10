@@ -31,9 +31,8 @@ function createDots(parentEl: Element, grid: number[]) {
     } else if (secondaryDots.includes(i)) {
       dotEl.style.background = "#FAE247";
     }
-    const opacity = Math.random();
-    dotEl.style.opacity =
-      opacity <= 0.2 ? (opacity + 0.2).toFixed(1) : opacity.toFixed(1);
+    const opacity = anime.random(4, 9);
+    dotEl.style.opacity = (opacity / 10).toFixed(1);
 
     dotsFragment.appendChild(dotEl);
   }
@@ -44,7 +43,6 @@ function createDots(parentEl: Element, grid: number[]) {
 function getNextDotIndex(grid: number[]) {
   const totalDotNumber = grid[0] * grid[1];
   let result = anime.random(0, totalDotNumber - 1);
-
   return result;
 }
 
@@ -84,21 +82,21 @@ class MechanismBG extends React.Component {
     let grid = [10, 6];
     createDots(dotsWrapperEl, grid);
 
-    let animation: anime.AnimeTimelineInstance;
-    let dotEls = staggerVisualizerEl.querySelectorAll(".dot");
+    // let animation: anime.AnimeTimelineInstance;
+    // let dotEls = staggerVisualizerEl.querySelectorAll(".dot");
 
-    let index = 237;
-    let nextIndex = 0;
+    // let index = 237;
+    // let nextIndex = 0;
 
-    play();
+    // play();
 
-    function play() {
-      if (animation) animation.pause();
+    // function play() {
+    //   if (animation) animation.pause();
 
-      nextIndex = getNextDotIndex(grid);
+    //   nextIndex = getNextDotIndex(grid);
 
-      index = nextIndex;
-    }
+    //   index = nextIndex;
+    // }
   }
 
   render() {
