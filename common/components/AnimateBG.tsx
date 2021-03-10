@@ -25,7 +25,7 @@ class AnimateBG extends React.Component {
         var elOffsetWidth = el.offsetWidth - pad;
         var parentOffsetWidth = parentEl.offsetWidth;
         var ratio = parentOffsetWidth / elOffsetWidth;
-        timeout = setTimeout(() => anime.set(el, { scale: ratio  }), 100);
+        timeout = setTimeout(() => anime.set(el, { scale: ratio + 0.1 }), 100);
       }
       resize();
       window.addEventListener("resize", resize);
@@ -35,7 +35,7 @@ class AnimateBG extends React.Component {
       var staggerVisualizerEl = document.querySelector(".stagger-visualizer");
       var dotsWrapperEl = staggerVisualizerEl.querySelector(".dots-wrapper");
       var dotsFragment = document.createDocumentFragment();
-      var grid = [25, 15];
+      var grid = [25, 12];
       // var cell = 60;
       var numberOfElements = grid[0] * grid[1];
       var animation;
@@ -47,6 +47,9 @@ class AnimateBG extends React.Component {
         var dotEl = document.createElement("div");
         dotEl.classList.add("dot");
         dotEl.classList.add(styles.dot);
+        const lineNo = Math.floor(i / 15) + 1;
+        dotEl.style.opacity = (lineNo / 25 + 0.1).toString();
+        
         dotsFragment.appendChild(dotEl);
       }
 
