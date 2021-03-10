@@ -2,182 +2,199 @@ import React from "react";
 import anime from "animejs";
 import styles from "./AnimateBG.module.scss";
 
+function createDots(parentEl: Element, grid: number[]) {
+  var dotsFragment = document.createDocumentFragment();
+  const totalNumber = grid[0] * grid[1];
+  for (var i = 0; i < totalNumber; i++) {
+    const dotEl = document.createElement("div");
+    const rowNo = Math.floor(i / grid[0]) + 1;
+    dotEl.classList.add("dot", styles.dot);
+    dotEl.style.opacity = (rowNo / grid[1]).toString();
+
+    dotsFragment.appendChild(dotEl);
+  }
+
+  parentEl.appendChild(dotsFragment);
+}
+
+function getNextDotIndex(grid: number[], minRowNo = 4, safeColOffset = 3) {
+  const totalDotNumber = grid[0] * grid[1];
+  let result = anime.random(0, totalDotNumber - 1);
+
+  const rowNo = Math.floor(result / grid[0]) + 1;
+
+  if (rowNo < minRowNo) {
+    result = getNextDotIndex(grid);
+  } else if (rowNo > grid[1] - safeColOffset) {
+    let colNo = result % grid[0];
+
+    if (colNo <= safeColOffset || grid[0] - colNo <= safeColOffset) {
+      result = getNextDotIndex(grid);
+    }
+  }
+
+  return result;
+}
+
 class AnimateBG extends React.Component {
-  domRef: React.RefObject<HTMLDivElement>;
+  staggerVisualizerRef: React.RefObject<HTMLDivElement>;
 
   constructor(props) {
     super(props);
-    this.domRef = React.createRef<HTMLDivElement>();
+    this.staggerVisualizerRef = React.createRef<HTMLDivElement>();
+    this.handleResize = this.handleResize.bind(this);
   }
 
+  handleResize() {
+    const staggerVisualizerEl = this.staggerVisualizerRef.current;
+    const parentEl = staggerVisualizerEl.parentNode as HTMLDivElement;
+    const elOffsetWidth = staggerVisualizerEl.offsetWidth;
+    const parentOffsetWidth = parentEl.offsetWidth;
+    const ratio = parentOffsetWidth / elOffsetWidth;
+    anime.set(staggerVisualizerEl, { scale: ratio });
+  }
   componentDidMount() {
     this.initAnimate();
+    this.handleResize();
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
   }
 
   initAnimate() {
-    function fitElementToParent(el, padding) {
-      var timeout = null;
-      function resize() {
-        if (timeout) clearTimeout(timeout);
-        anime.set(el, { scale: 1 });
-        var pad = padding || 0;
-        var parentEl = el.parentNode;
-        var elOffsetWidth = el.offsetWidth - pad;
-        var parentOffsetWidth = parentEl.offsetWidth;
-        var ratio = parentOffsetWidth / elOffsetWidth;
-        timeout = setTimeout(() => anime.set(el, { scale: ratio + 0.1 }), 100);
-      }
-      resize();
-      window.addEventListener("resize", resize);
-    }
+    var staggerVisualizerEl = this.staggerVisualizerRef.current;
+    var dotsWrapperEl = staggerVisualizerEl.querySelector("#dots-wrapper");
+    var cursorEl = staggerVisualizerEl.querySelector("#cursor");
 
-    (function advancedStaggeringAnimation() {
-      var staggerVisualizerEl = document.querySelector(".stagger-visualizer");
-      var dotsWrapperEl = staggerVisualizerEl.querySelector(".dots-wrapper");
-      var dotsFragment = document.createDocumentFragment();
-      var grid = [25, 12];
-      // var cell = 60;
-      var numberOfElements = grid[0] * grid[1];
-      var animation;
-      var paused = true;
+    var grid = [25, 12];
+    createDots(dotsWrapperEl, grid);
 
-      fitElementToParent(staggerVisualizerEl, 0);
+    var animation: anime.AnimeTimelineInstance;
+    var dotEls = staggerVisualizerEl.querySelectorAll(".dot");
 
-      for (var i = 0; i < numberOfElements; i++) {
-        var dotEl = document.createElement("div");
-        dotEl.classList.add("dot");
-        dotEl.classList.add(styles.dot);
-        const lineNo = Math.floor(i / 15) + 1;
-        dotEl.style.opacity = (lineNo / 25 + 0.1).toString();
-        
-        dotsFragment.appendChild(dotEl);
-      }
+    var index = 237;
+    var nextIndex = 0;
+    var dotWidth = 40;
 
-      dotsWrapperEl.appendChild(dotsFragment);
+    anime.set(cursorEl, {
+      translateX: anime.stagger(-dotWidth, {
+        grid: grid,
+        from: index,
+        axis: "x",
+      }),
+      translateY: anime.stagger(-dotWidth, {
+        grid: grid,
+        from: index,
+        axis: "y",
+      }),
+      scale: 1.3,
+    });
 
-      var index = anime.random(0, numberOfElements - 1);
-      var nextIndex = 0;
+    play();
 
-      // anime.set(".stagger-visualizer .cursor", {
-      //   translateX: anime.stagger(-cell, {
-      //     grid: grid,
-      //     from: index,
-      //     axis: "x",
-      //   }),
-      //   translateY: anime.stagger(-cell, {
-      //     grid: grid,
-      //     from: index,
-      //     axis: "y",
-      //   }),
-      //   translateZ: 0,
-      //   scale: 1.5,
-      // });
+    function play() {
+      if (animation) animation.pause();
 
-      function play() {
-        paused = false;
-        if (animation) animation.pause();
+      nextIndex = getNextDotIndex(grid);
 
-        nextIndex = anime.random(0, numberOfElements - 1);
-
-        animation = anime
-          .timeline({
-            easing: "easeInOutQuad",
-            complete: play,
-          })
-          // .add({
-          //   targets: ".stagger-visualizer .cursor",
-          //   keyframes: [
-          //     { scale: 0.75, duration: 120 },
-          //     { scale: 2.5, duration: 220 },
-          //     { scale: 1.5, duration: 450 },
-          //   ],
-          //   duration: 300,
-          // })
-
-          .add(
-            {
-              targets: ".stagger-visualizer .dot",
-              keyframes: [
-                {
-                  translateX: anime.stagger("-1px", {
-                    grid: grid,
-                    from: index,
-                    axis: "x",
-                  }),
-                  translateY: anime.stagger("-1px", {
-                    grid: grid,
-                    from: index,
-                    axis: "y",
-                  }),
-                  duration: 100,
-                },
-                {
-                  translateX: anime.stagger("1px", {
-                    grid: grid,
-                    from: index,
-                    axis: "x",
-                  }),
-                  translateY: anime.stagger("1px", {
-                    grid: grid,
-                    from: index,
-                    axis: "y",
-                  }),
-                  scale: anime.stagger([1.5, 1], { grid: grid, from: index }),
-                  duration: 225,
-                },
-                {
-                  translateX: 0,
-                  translateY: 0,
-                  scale: 1,
-                  duration: 1200,
-                },
-              ],
-              delay: anime.stagger(100, { grid: grid, from: index }),
+      animation = anime
+        .timeline({
+          easing: "easeInOutQuad",
+          complete: play,
+        })
+        .add({
+          targets: cursorEl,
+          keyframes: [
+            { scale: 0.75, duration: 120 },
+            { scale: 2.3, duration: 220 },
+            { scale: 1.5, duration: 450 },
+          ],
+          duration: 300,
+        })
+        .add(
+          {
+            targets: dotEls,
+            keyframes: [
+              {
+                translateX: anime.stagger("-1px", {
+                  grid,
+                  from: index,
+                  axis: "x",
+                }),
+                translateY: anime.stagger("-1px", {
+                  grid,
+                  from: index,
+                  axis: "y",
+                }),
+                duration: 100,
+              },
+              {
+                translateX: anime.stagger("1px", {
+                  grid,
+                  from: index,
+                  axis: "x",
+                }),
+                translateY: anime.stagger("1px", {
+                  grid,
+                  from: index,
+                  axis: "y",
+                }),
+                scale: anime.stagger([1.5, 1], { grid, from: index }),
+                duration: 225,
+              },
+              {
+                translateX: 0,
+                translateY: 0,
+                scale: 1,
+                duration: 1200,
+              },
+            ],
+            delay: anime.stagger(100, { grid, from: index }),
+          },
+          30
+        )
+        // move cursor
+        .add(
+          {
+            targets: cursorEl,
+            //  moving along the X-axis
+            translateX: {
+              value: anime.stagger(-dotWidth, {
+                grid: grid,
+                from: nextIndex,
+                axis: "x",
+              }),
             },
-            30
-          )
-          // move cursor
-          // .add(
-          //   {
-          //     targets: ".stagger-visualizer .cursor",
-          //     //  moving along the X-axis
-          //     translateX: {
-          //       value: anime.stagger(-cell, {
-          //         grid: grid,
-          //         from: nextIndex,
-          //         axis: "x",
-          //       }),
-          //     },
-          //     // moving along the Y-axis
-          //     translateY: {
-          //       value: anime.stagger(-cell, {
-          //         grid: grid,
-          //         from: nextIndex,
-          //         axis: "y",
-          //       }),
-          //     },
-          //     scale: 1.5,
-          //     easing: "cubicBezier(.075, .2, .165, 1)",
-          //   },
-          //   "-=1200"
-          // );
+            // moving along the Y-axis
+            translateY: {
+              value: anime.stagger(-dotWidth, {
+                grid: grid,
+                from: nextIndex,
+                axis: "y",
+              }),
+            },
+            scale: 1.5,
+            easing: "cubicBezier(.075, .2, .165, 1)",
+          },
+          "-=1200"
+        );
 
-        index = nextIndex;
-      }
-
-      play();
-    })();
+      index = nextIndex;
+    }
   }
 
   render() {
     return (
-      <div className={styles.root} ref={this.domRef}>
-        <div className={`${styles["animation-wrapper"]} animation-wrapper`}>
-          <div className={`${styles["stagger-visualizer"]} stagger-visualizer`}>
-            <div
-              className={`${styles["cursor"]} ${styles["color-red"]} cursor  color-red`}
-            ></div>
-            <div className={`${styles["dots-wrapper"]} dots-wrapper`}></div>
+      <div className={styles.root}>
+        <div className={styles["animation-wrapper"]}>
+          <div
+            className={styles["stagger-visualizer"]}
+            ref={this.staggerVisualizerRef}
+          >
+            <div className={styles["cursor"]} id="cursor"></div>
+            <div id="dots-wrapper" className={styles["dots-wrapper"]}></div>
           </div>
         </div>
       </div>

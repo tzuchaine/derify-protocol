@@ -43,14 +43,14 @@
     border-radius: 50%;
   }
 
-  // .stagger-visualizer .cursor {
-  //   position: absolute;
-  //   top: 0px;
-  //   left: 0px;
-  //   width: 37px;
-  //   height: 37px;
-  //   margin: 9px;
-  //   background-color: $primary-color;
-  //   border-radius: 50%;
-  // }
+  .stagger-visualizer .cursor {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    margin: 15px;
+    background-color: $primary-color;
+    border-radius: 50%;
+  }
 }
