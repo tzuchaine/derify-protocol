@@ -3,9 +3,9 @@ import anime from "animejs";
 import styles from "./AnimateBG.module.scss";
 
 function createDots(parentEl: Element, grid: number[]) {
-  var dotsFragment = document.createDocumentFragment();
+  let dotsFragment = document.createDocumentFragment();
   const totalNumber = grid[0] * grid[1];
-  for (var i = 0; i < totalNumber; i++) {
+  for (let i = 0; i < totalNumber; i++) {
     const dotEl = document.createElement("div");
     const rowNo = Math.floor(i / grid[0]) + 1;
     dotEl.classList.add("dot", styles.dot);
@@ -64,19 +64,19 @@ class AnimateBG extends React.Component {
   }
 
   initAnimate() {
-    var staggerVisualizerEl = this.staggerVisualizerRef.current;
-    var dotsWrapperEl = staggerVisualizerEl.querySelector("#dots-wrapper");
-    var cursorEl = staggerVisualizerEl.querySelector("#cursor");
+    let staggerVisualizerEl = this.staggerVisualizerRef.current;
+    let dotsWrapperEl = staggerVisualizerEl.querySelector("#dots-wrapper");
+    let cursorEl = staggerVisualizerEl.querySelector("#cursor");
 
-    var grid = [25, 12];
+    let grid = [25, 12];
     createDots(dotsWrapperEl, grid);
 
-    var animation: anime.AnimeTimelineInstance;
-    var dotEls = staggerVisualizerEl.querySelectorAll(".dot");
+    let animation: anime.AnimeTimelineInstance;
+    let dotEls = staggerVisualizerEl.querySelectorAll(".dot");
 
-    var index = 237;
-    var nextIndex = 0;
-    var dotWidth = 40;
+    let index = 237;
+    let nextIndex = 0;
+    let dotWidth = 40;
 
     anime.set(cursorEl, {
       translateX: anime.stagger(-dotWidth, {
@@ -89,7 +89,7 @@ class AnimateBG extends React.Component {
         from: index,
         axis: "y",
       }),
-      scale: 1.3,
+      scale: 1.2,
     });
 
     play();
@@ -107,9 +107,9 @@ class AnimateBG extends React.Component {
         .add({
           targets: cursorEl,
           keyframes: [
-            { scale: 0.75, duration: 120 },
-            { scale: 2.3, duration: 220 },
-            { scale: 1.5, duration: 450 },
+            { scale: 0.9, duration: 120 },
+            { scale: 1.6, duration: 220 },
+            { scale: 1.3, duration: 450 },
           ],
           duration: 300,
         })
@@ -141,7 +141,7 @@ class AnimateBG extends React.Component {
                   from: index,
                   axis: "y",
                 }),
-                scale: anime.stagger([1.5, 1], { grid, from: index }),
+                scale: anime.stagger([1.6, 1], { grid, from: index }),
                 duration: 225,
               },
               {

@@ -28,7 +28,7 @@ const MenuIcon: React.FC = () => {
             id="line"
             fill="none"
             stroke="currentColor"
-            strokeWidth="12"
+            strokeWidth="8"
             strokeLinecap="round"
             d="M -40 0 h 80"
           />

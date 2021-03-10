@@ -43,7 +43,7 @@ const Button: React.FC<ButtonProps> = (props) => {
   useEffect(() => {
     const dom = ref.current;
 
-    function mousedownEvent(e: MouseEvent) {
+    function mousedownEvent() {
       setClasses((classes) => {
         let _cls = [...classes];
         if (!_cls.includes(styles.click)) {
@@ -52,7 +52,7 @@ const Button: React.FC<ButtonProps> = (props) => {
         return _cls;
       });
     }
-    function mouseupEvent(e: MouseEvent) {
+    function mouseupEvent() {
       setClasses((classes) => {
         let _cls = [...classes];
         if (_cls.includes(styles.click)) {
@@ -61,12 +61,18 @@ const Button: React.FC<ButtonProps> = (props) => {
         return _cls;
       });
     }
+
+    dom.addEventListener("touchstart", mousedownEvent);
+    dom.addEventListener("touchend", mouseupEvent);
     dom.addEventListener("mousedown", mousedownEvent);
     dom.addEventListener("mouseup", mouseupEvent);
     dom.addEventListener("mouseleave", mouseupEvent);
+
     return () => {
+      dom.removeEventListener("touchstart", mousedownEvent);
+      dom.removeEventListener("touchend", mouseupEvent);
       dom.removeEventListener("mousedown", mousedownEvent);
-      dom.removeEventListener("mousedown", mouseupEvent);
+      dom.removeEventListener("mouseup", mouseupEvent);
       dom.removeEventListener("mouseleave", mouseupEvent);
     };
   }, []);

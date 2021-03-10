@@ -2,7 +2,7 @@
 
 $button-radius: 4px;
 
-@mixin foregroundColor($color: rgba(#000, 0.3)) {
+@mixin foregroundColor($color: rgba(#000, 0.15)) {
   &::before {
     top: 0;
     left: 0;
@@ -15,6 +15,7 @@ $button-radius: 4px;
 .root {
   position: relative;
   cursor: pointer;
+  overflow: hidden;
   box-sizing: border-box;
   text-transform: uppercase;
   border-radius: $button-radius;
@@ -50,6 +51,7 @@ $button-radius: 4px;
   &.full {
     width: 100%;
   }
+
   &.size-small {
     min-width: 3rem;
     height: 2rem;
@@ -82,7 +84,7 @@ $button-radius: 4px;
     }
     &.outlined {
       color: $primary-color;
-      border-color: rgba($primary-color, 0.5);
+      border-color: rgba($primary-color, 0.75);
     }
   }
 
@@ -93,18 +95,20 @@ $button-radius: 4px;
     }
     &.outlined {
       color: $secondary-color;
-      border-color: rgba($secondary-color, 0.5);
+      border-color: rgba($secondary-color, 0.75);
     }
   }
 
   &::before {
     position: absolute;
     content: "";
-    border-radius: $button-radius;
+    // border-radius: $button-radius;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   }
+
+
 
   &:hover {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
@@ -113,19 +117,33 @@ $button-radius: 4px;
 
     &.contained {
       @include foregroundColor;
+      
+      &.click {
+        @include foregroundColor(rgba(#000, 0.6));
+      }
     }
 
     &.color-primary {
       &.outlined {
-        @include foregroundColor(rgba($primary-color, 0.15));
+        @include foregroundColor(rgba($primary-color, 0.06));
         border-color: $primary-color;
+
+        &.click {
+          color: #FFF;
+          @include foregroundColor(rgba($primary-color, 1));
+        }
       }
     }
 
     &.color-secondary {
       &.outlined {
-        @include foregroundColor(rgba($secondary-color, 0.15));
+        @include foregroundColor(rgba($secondary-color, 0.06));
         border-color: $secondary-color;
+
+        &.click {
+          color: #FFF;
+          @include foregroundColor(rgba($secondary-color, 1));
+        }
       }
     }
   }

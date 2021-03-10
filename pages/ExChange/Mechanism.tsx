@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../common/components/Container";
 import Hide from "../../common/components/Hide";
+import MechanismBG from "../../common/components/MechanismBG";
 import Typography from "../../common/components/Typography";
 import styles from "./Mechanism.module.scss";
 
@@ -12,24 +13,30 @@ const Mechanism: React.FC = () => {
           <div className={styles.left}>
             <div className={styles.title}>
               <Hide breakpoint="md">
-                <Typography.Heading level={2}>Mechanism of</Typography.Heading>
-                <Typography.Heading level={2}>
+                <Typography.Heading level={1} style={{ fontWeight: 500 }}>
+                  Mechanism of
+                </Typography.Heading>
+                <Typography.Heading level={1} style={{ fontWeight: 500 }}>
                   Derify protocol
                 </Typography.Heading>
               </Hide>
               <Hide breakpoint="md" up>
-                <Typography.Heading level={2}>
+                <Typography.Heading level={1} style={{ fontWeight: 500 }}>
                   Mechanism of Derify protocol
                 </Typography.Heading>
               </Hide>
             </div>
             <Hide breakpoint="md">
-              <div className={styles.decoration}></div>
+              <div className={styles.decoration}>
+                <MechanismBG />
+              </div>
             </Hide>
           </div>
           <div className={styles.right}>
             <div className={styles.item}>
-              <h3 className={styles.title}>Computable Contract</h3>
+              <Typography.Heading level={3}>
+                Computable Contract
+              </Typography.Heading>
               <div className={styles.content}>
                 <p>
                   In Derify protocol, trading action is considered as deposit a
@@ -41,7 +48,7 @@ const Mechanism: React.FC = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <h3 className={styles.title}>hAMM</h3>
+              <Typography.Heading level={3}>hAMM</Typography.Heading>
               <div className={styles.content}>
                 <p>
                   the market making theory in Derify protocol is called "hedged
@@ -54,7 +61,7 @@ const Mechanism: React.FC = () => {
               </div>
             </div>
             <div className={styles.item}>
-              <h3 className={styles.title}>Position Mining</h3>
+              <Typography.Heading level={3}>Position Mining</Typography.Heading>
               <div className={styles.content}>
                 <p>
                   In Derify protocol, position is liquidity. All positions
