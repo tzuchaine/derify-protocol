@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Button";
 import Container from "../components/Container";
 import Hide from "../components/Hide";
 import styles from "./Layout.module.scss";
@@ -15,12 +16,16 @@ const LayoutHeader: React.FC = () => {
           <div className={`${styles.nav}`}>
             <Hide>
               <ul>
-                <li>Home</li>
+                <li className={styles.active}>Home</li>
                 <li>Learn</li>
                 <li>Blog</li>
                 <li>Community</li>
-                <li className={styles.active}>ExChange</li>
               </ul>
+            </Hide>
+            <Hide style={{  width: "unset"  }}>
+              <Button variant="outlined" color="secondary" size="large">
+                ExChange
+              </Button>
             </Hide>
             <Hide up>
               <MenuIcon />
