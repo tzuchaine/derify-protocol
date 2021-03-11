@@ -4,17 +4,17 @@
   background-color: #fff;
   color: unset;
   width: 100vw;
-  padding: 6rem 0;
   cursor: pointer;
+  @include block-padding;
 
   .title {
-    margin-bottom: 3rem;
+    @include title-margin;
   }
 
   .content {
     .grid {
       display: grid;
-      grid-gap: 24px;
+      grid-gap: 3rem;
       grid-template-columns: repeat(12, 1fr);
 
       @media screen and (max-width: map-get($grid-breakpoints, xl )) {
@@ -32,38 +32,34 @@
 
   .card {
     width: 100%;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 10px;
     background-color: #f7fafc;
     // background-image: linear-gradient(#1b1e2c, #101321);
     text-align: left;
-    max-width: 440px;
+    max-width: 480px;
     margin: 0 auto;
 
     .icon {
-      padding: .6rem 0;
-      margin-bottom: 1rem;
+      padding: 1.2rem 0;
+      margin-bottom: 2rem;
 
       > svg {
-        width: 56px;
-        height: 56px;
+        width: 7rem;
+        height: 7rem;
         color: #48537A;
       }
     }
 
     .title {
-      color: $text-color;
-      font-size: 1.125rem;
-      font-weight: 500;
-      line-height: 1.5;
-      margin-bottom: 12px;
+      font-weight: bolder;
+      margin-bottom: 1.5rem;
     }
 
     .desc {
-      color: #48537a;
-      font-size: 0.875rem;
-      line-height: 1.3;
-      height: 6.825rem;
+      // color: #48537a;
+      line-height: 1.5;
+      height: 13.5rem;
     }
 
     // &:hover {

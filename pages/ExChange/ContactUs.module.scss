@@ -3,10 +3,11 @@
 
 .root {
   background-color: #FFF;
-  padding: 6rem 0 9rem;
+  @include block-padding;
+  padding-bottom: 16rem;
 
   .title {
-    margin-bottom: 3rem;
+    @include title-margin;
   }
 
   .icons {
@@ -17,16 +18,16 @@
     .icon {
       cursor: pointer;
       color: #888;
-      width: 72px;
-      height: 72px;
+      width: 7.2rem;
+      height: 7.2rem;
       border-radius: 4px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
 
       svg {
-        width: 36px;
-        height: 36px;
+        width: 3.6rem;
+        height: 3.6rem;
       }
 
       &:hover {

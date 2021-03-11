@@ -2,28 +2,16 @@
 
 .root {
   background-color: $background-color;
-  color: $text-color;
-  width: 100vw;
+  @include block-padding;
 
-  .container {
-    background-color: rgba(#FFF, 0.06);
-    border-radius: 12px 12px 0 0;
-    padding: 4rem 1.5rem;
-  }
 
   .title {
-    margin-bottom: 3rem;
+    @include title-margin;
   }
 
-  .subtitle {
-    > p {
-      font-size: 0.875rem;
-      color: $text-color-secondary;
-    }
-  }
 
   .action {
-    margin-top: 4rem;
+    margin-top: 8rem;
     text-align: center;
   }
 }

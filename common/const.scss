@@ -12,9 +12,17 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px,
+  xxl: 1620px,
 );
 
 @mixin border-solid($width: 2px, $color: $primary-color) {
   border: solid $width $color;
+}
+
+@mixin title-margin {
+  margin: 0 0 6rem;
+}
+
+@mixin block-padding {
+  padding: 12rem 0;
 }

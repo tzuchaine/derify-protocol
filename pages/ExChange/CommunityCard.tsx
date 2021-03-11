@@ -1,4 +1,5 @@
 import React from "react";
+import Typography from "../../common/components/Typography";
 import styles from "./Community.module.scss";
 
 interface CommunityCardProps {
@@ -12,8 +13,12 @@ const CommunityCard: React.FC<CommunityCardProps> = (props) => {
   return (
     <div className={styles.card}>
       <div className={styles.icon}>{icon}</div>
-      <div className={styles.title}>{title}</div>
-      <div className={styles.desc}> {description}</div>
+      <Typography.Heading level={4} className={styles.title}>
+        {title}
+      </Typography.Heading>
+      <Typography.Content className={styles.desc}>
+        {description}
+      </Typography.Content>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Typography.module.scss";
 
 interface TypographyHeadingProps extends IComponent.CommonProps {
-  level?: 1 | 2 | 3;
+  level?: 1 | 2 | 3 | 4;
 }
 
 const Heading: React.FC<TypographyHeadingProps> = ({
@@ -26,8 +26,9 @@ const Content: React.FC<IComponent.CommonProps> = ({
   className,
   children,
 }) => {
+  const classes = [styles.content, className];
   return (
-    <p style={style} className={className}>
+    <p style={style} className={classes.join(" ")}>
       {children}
     </p>
   );
