@@ -9,7 +9,7 @@ interface SummaryItemProps {
 }
 
 const SummaryItem: React.FC<SummaryItemProps> = (props) => {
-  const { icon, title, description } = props;
+  const { icon, title, description = [] } = props;
 
   return (
     <div className={styles.item}>
