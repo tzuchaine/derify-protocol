@@ -16,10 +16,7 @@ const Layout: React.FC = (props) => {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         ></meta>
         <meta name="description" content="derify protocol"></meta>
-        <meta
-          name="keywords"
-          content="derify protocol, exchange, blockchain"
-        ></meta>
+        <meta name="keywords" content="derify protocol, blockchain"></meta>
       </Head>
       <LayoutHeader />
       <LayoutMain>{props.children}</LayoutMain>

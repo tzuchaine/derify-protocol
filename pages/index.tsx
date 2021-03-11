@@ -1,10 +1,10 @@
 import Layout from "../common/layout";
-import ExChangePage from "./ExChange";
+import HomePage from "./Home";
 
 export default function Main() {
   return (
     <Layout>
-      <ExChangePage />
+      <HomePage />
     </Layout>
   );
 }

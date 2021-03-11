@@ -1,1 +1,1 @@
-export const APP_NAME = "DerifyProtocol ExChange";
+export const APP_NAME = "DerifyProtocol";

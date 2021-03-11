@@ -8,14 +8,14 @@ import Community from "./Community";
 import Governance from "./Governance";
 import ContactUs from "./ContactUs";
 
-class ExChange extends React.Component {
+class Home extends React.Component {
   render() {
     return (
       <>
         <Head>
-          <title>ExChange | Derify Protocol</title>
+          <title>Home | Derify Protocol</title>
         </Head>
-        <div className="ExChange">
+        <div className="Home">
           <Banner />
           <Summary />
           <Mechanism />
@@ -28,4 +28,4 @@ class ExChange extends React.Component {
   }
 }
 
-export default ExChange;
+export default Home;
