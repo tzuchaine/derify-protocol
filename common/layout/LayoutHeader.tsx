@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../components/Button";
 import Container from "../components/Container";
 import Hide from "../components/Hide";
 import styles from "./Layout.module.scss";
 import MenuIcon from "./MenuIcon";
 import NavigationMenu, { Menu } from "./NavigationMenu";
+import NavigationMenuForMobile from "./NavigationMenuForMobile";
 
 const LayoutHeader: React.FC = () => {
+
+  const [mobileMenuActive, setMobileMenuAcitve] = useState(false);
+
   const menus: Menu[] = [
     {
       name: "Home",
@@ -79,8 +83,18 @@ const LayoutHeader: React.FC = () => {
                 ExChange
               </Button>
             </Hide>
-            <Hide up>
-              <MenuIcon />
+            <Hide up style={{ width: "unset" }}>
+              <div className={styles["mobile-nav"]}>
+                <MenuIcon
+                  active={mobileMenuActive}
+                  onToggle={setMobileMenuAcitve}
+                />
+                <NavigationMenuForMobile
+                  menus={menus}
+                  visible={mobileMenuActive}
+                  onToggle={setMobileMenuAcitve}
+                />
+              </div>
             </Hide>
           </div>
         </nav>
