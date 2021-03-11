@@ -1,0 +1,98 @@
+@import "../const.scss";
+
+$menu-height: 6rem;
+$menu-padding: 3rem;
+
+.root {
+  width: 100%;
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .menu-item {
+      color: $text-color-secondary;
+      position: relative;
+      height: $menu-height;
+      font-size: 2rem;
+      line-height: $menu-height;
+      padding: 0 $menu-padding;
+      cursor: pointer;
+      box-sizing: border-box;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 240ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      .menu-arrow {
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.6rem;
+        transition: transform 240ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        > svg {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+      }
+
+      &:hover {
+        color: #fff;
+
+        .menu-arrow {
+          transform: rotateX(180deg);
+        }
+
+        .menu-children {
+          display: block;
+        }
+      }
+
+      .menu-children {
+        animation: fade-up 240ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: none;
+        position: absolute;
+        top: $menu-height;
+        left: $menu-padding;
+        background-color: rgb(24, 27, 38);
+        border-radius: 2px;
+
+        .menu-children-item {
+          text-align: left;
+          color: $text-color-secondary;
+          font-size: 1.8rem;
+          min-width: 120px;
+          padding: 1rem 2rem;
+          line-height: 1.5;
+
+          &:hover {
+            color: $secondary-color;
+            background-color: rgba($secondary-color, $alpha: 0.15);
+          }
+        }
+      }
+
+      &__active {
+        color: #fff;
+      }
+    }
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0.4;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -4,8 +4,65 @@ import Container from "../components/Container";
 import Hide from "../components/Hide";
 import styles from "./Layout.module.scss";
 import MenuIcon from "./MenuIcon";
+import NavigationMenu, { Menu } from "./NavigationMenu";
 
 const LayoutHeader: React.FC = () => {
+  const menus: Menu[] = [
+    {
+      name: "Home",
+      link: "",
+      active: true,
+    },
+    {
+      name: "Learn",
+      link: "",
+      children: [
+        {
+          name: "docs",
+          link: "",
+        },
+        {
+          name: "Whitepaper",
+          link: "",
+        },
+        {
+          name: "Github",
+          link: "",
+        },
+      ],
+    },
+    {
+      name: "Blog",
+      link: "",
+    },
+    {
+      name: "Community",
+      link: "",
+      children: [
+        {
+          name: "Twitter",
+          link: "",
+        },
+        {
+          name: "Discord",
+          link: "",
+        },
+        {
+          name: "Telegram",
+          link: "",
+        },
+        {
+          name: "Reddit",
+          link: "",
+        },
+        {
+          name: "Forum",
+          link: "",
+        },
+      ],
+    },
+  ];
+
   return (
     <header className={styles.header}>
       <Container>
@@ -15,14 +72,9 @@ const LayoutHeader: React.FC = () => {
           </div>
           <div className={`${styles.nav}`}>
             <Hide>
-              <ul>
-                <li className={styles.active}>Home</li>
-                <li>Learn</li>
-                <li>Blog</li>
-                <li>Community</li>
-              </ul>
+              <NavigationMenu menus={menus} />
             </Hide>
-            <Hide style={{  width: "unset"  }}>
+            <Hide style={{ width: "unset" }}>
               <Button variant="outlined" color="secondary" size="large">
                 ExChange
               </Button>
