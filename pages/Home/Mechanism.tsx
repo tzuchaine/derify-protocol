@@ -56,7 +56,7 @@ const Mechanism: React.FC = () => {
                   restoring the balance of system. Apart from the key objective,
                   hAMM theory is very different from AMM.
                 </Typography.Content>
-                <a href="https://www.google.com/search?q=hAMM">lear more</a>
+                <a href="https://www.google.com/search?q=hAMM">learn more</a>
               </div>
             </div>
             <div className={styles.item}>
@@ -70,7 +70,7 @@ const Mechanism: React.FC = () => {
                   risk-free liquidity providing.
                 </Typography.Content>
                 <a href="https://www.google.com/search?q=Position Mining">
-                  lear more
+                  learn more
                 </a>
               </div>
             </div>
