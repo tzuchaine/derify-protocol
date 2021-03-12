@@ -72,7 +72,7 @@ const Community: React.FC = () => {
     <div className={styles.root}>
       <Container>
         <div className={styles.title}>
-          <Typography.Heading level={3}>
+          <Typography.Heading level={2}>
             Get into the community
           </Typography.Heading>
         </div>

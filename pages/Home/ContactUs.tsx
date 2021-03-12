@@ -36,10 +36,10 @@ const ContactUs: React.FC = () => {
     <div className={styles.root}>
       <Container>
         <div className={styles.title}>
-          <Typography.Heading level={3}>
+          <Typography.Heading level={2}>
             Meet the future of derivatives trading
           </Typography.Heading>
-          <Typography.Heading level={3}>and contact us at</Typography.Heading>
+          <Typography.Heading level={2}>and contact us at</Typography.Heading>
         </div>
         <div className={styles.icons}>
           <div className={styles.icon}>

@@ -72,7 +72,7 @@ const LayoutHeader: React.FC = () => {
       <Container style={{ overflow: "visible" }}>
         <nav className={styles.navbar}>
           <div className={styles.brand}>
-            <img src="/brand.svg" alt="brand image" width="274" height="60" />
+            <img src="/brand.png" alt="brand image" />
           </div>
           <div className={`${styles.nav}`}>
             <Hide>

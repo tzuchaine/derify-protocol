@@ -9,7 +9,7 @@ const Governance: React.FC = () => {
     <div className={styles.root}>
       <Container>
         <div className={styles.title}>
-          <Typography.Heading level={3}>
+          <Typography.Heading level={2}>
             Governance of Derify protocol
           </Typography.Heading>
         </div>

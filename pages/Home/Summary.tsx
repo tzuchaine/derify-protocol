@@ -66,10 +66,10 @@ const Summary: React.FC = () => {
     <div className={styles.root}>
       <Container>
         <div className={styles.title}>
-          <Typography.Heading level={3}>
+          <Typography.Heading level={2}>
             Derify protocol is the NEXT Generation decentralized
           </Typography.Heading>
-          <Typography.Heading level={3}>
+          <Typography.Heading level={2}>
             derivatives trading protocol
           </Typography.Heading>
         </div>

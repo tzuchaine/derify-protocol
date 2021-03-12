@@ -16,7 +16,7 @@ $menu-padding: 3rem;
 
 
     .menu-item {
-      color: $text-color-secondary;
+      color: rgba($color: #FFF, $alpha: .6);
       position: relative;
       height: $menu-height;
       font-size: 2rem;
@@ -69,7 +69,7 @@ $menu-padding: 3rem;
 
         .menu-children-item {
           text-align: left;
-          color: $text-color-secondary;
+          color: rgba($color: #FFF, $alpha: .6);
           font-size: 1.8rem;
           min-width: 120px;
           padding: 1rem 2rem;
@@ -110,7 +110,7 @@ $menu-padding: 3rem;
     .menu-item {
       text-align: left;
       cursor: pointer;
-      color: $text-color-secondary;
+      color: rgba($color: #FFF, $alpha: .6);
       font-size: 1.8rem;
       min-width: 140px;
       padding: 1rem 2rem;
