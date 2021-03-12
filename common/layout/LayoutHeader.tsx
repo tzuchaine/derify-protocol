@@ -69,7 +69,7 @@ const LayoutHeader: React.FC = () => {
 
   return (
     <header className={styles.header}>
-      <Container>
+      <Container style={{ overflow: "visible" }}>
         <nav className={styles.navbar}>
           <div className={styles.brand}>
             <img src="/brand.svg" alt="brand image" width="274" height="60" />

@@ -63,7 +63,7 @@ const CommunityData = [
     icon: <InvestorIcon />,
     title: "Investor",
     desc:
-      "As an investor, WELCOME to the future of decentralized derivative trading! DRF token is the fundamental asset of Derify Protocol. As a DAO, our ecosystem is completely governed by community.",
+      "As an investor, welecome to the future of decentralized derivative trading! DRF token is the fundamental asset of Derify Protocol. As a DAO, our ecosystem is completely governed by community.",
   },
 ];
 
