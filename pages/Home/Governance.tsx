@@ -15,16 +15,18 @@ const Governance: React.FC = () => {
         </div>
         <div>
           <Typography.Content>
-            Derify Protocol is a fully decentralized autonomous organization
-            (DAO).
+            Derify Protocol is a decentralized autonomous organization (DAO).
           </Typography.Content>
           <Typography.Content>
-            Completely governed by community, vote by burning eDRF (generate by
-            staking DRF).
+            Community members make proposals and decisions to improve the
+            protocol.
           </Typography.Content>
           <Typography.Content>
-            Community participator can make proposals of improvement, proposals
-            got enough votes would have guaranteed implementation.
+            Public voting is conducted by burning eDRF (generate by staking
+            DRF).
+          </Typography.Content>
+          <Typography.Content>
+            Passed proposals will be strictly implemented.
           </Typography.Content>
         </div>
 

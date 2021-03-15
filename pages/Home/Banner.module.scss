@@ -3,7 +3,7 @@
 .root {
   width: 100vw;
   height: 100vh;
-  padding: 22vh 0.8rem 20vh;
+  padding: 23vh 0.8rem 20vh;
   background-color: #000000;
   position: relative;
   perspective: 500px;
@@ -11,10 +11,12 @@
 
   .title > h1 {
     color: #f8ecee;
+    line-height: 1.4;
+    font-weight: 300;
   }
 
   .subtitle {
-    color: rgba($color: #FFF, $alpha: .6);
+    color: rgba(63,65,77);
     font-size: 2.6rem;
     margin-top: 4rem;
   }
@@ -26,7 +28,7 @@
     justify-content: center;
 
     > * {
-      margin: 0 0.8rem;
+      margin: 0 1rem;
     }
   }
 

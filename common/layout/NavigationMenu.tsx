@@ -27,7 +27,15 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ menus }) => {
     if (_hasChildren) _menuItemClasses.push(styles["menu-item__has-children"]);
 
     return (
-      <div className={_menuItemClasses.join(" ")} key={`menu_${index}`}>
+      <div
+        className={_menuItemClasses.join(" ")}
+        key={`menu_${index}`}
+        onClick={function link() {
+          if (item.link) {
+            window.location.href = item.link;
+          }
+        }}
+      >
         <span className={styles["menu-name"]}>{item.name}</span>
         {_hasChildren && (
           <>
@@ -45,7 +53,15 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ menus }) => {
 
   const renderSubmenuItem = useCallback((item: Menu, index: number) => {
     return (
-      <div className={styles["menu-children-item"]} key={index}>
+      <div
+        className={styles["menu-children-item"]}
+        key={index}
+        onClick={function link() {
+          if (item.link) {
+            window.location.href = item.link;
+          }
+        }}
+      >
         {item.name}
       </div>
     );

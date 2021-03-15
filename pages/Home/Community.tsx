@@ -45,25 +45,25 @@ const CommunityData = [
     icon: <TraderIcon />,
     title: "Trader",
     desc:
-      "As a trader, you can get profit via 2-way trading. You can also get risk-free yield from providing liquidity by position mining, or making hedged transactions to reduce the risk exposure of the system.",
+      "As a trader, you gain profit from trading. You can also get risk-free yield from providing liquidity by position mining, or making hedged transactions to reduce the risk exposure of the system.",
   },
   {
     icon: <BrokerIcon />,
     title: "Broker",
     desc:
-      "As a broker, you can run your own Decentralized Exchange and earn transaction fee rewards plus bonus DRF tokens. The more user and transactions you have, the more profit you will get.",
+      "As a broker, you run your own Decentralized Exchange to earn transaction fee rewards and bonus DRF tokens. The more user and transaction you have, the more profit you will get.",
   },
   {
     icon: <DeveloperIcon />,
     title: "Developer",
     desc:
-      "As a developer, you can contribute to the open-source community, or join the Bug Bounty program to increase the security of Derify protocol, and earn sizeable rewards.",
+      "As a developer, you contribute to the open-source community. You can also join the Bug Bounty program to increase the security of Derify protocol and earn substantial rewards.",
   },
   {
     icon: <InvestorIcon />,
     title: "Investor",
     desc:
-      "As an investor, welecome to the future of decentralized derivative trading! DRF token is the fundamental asset of Derify Protocol. As a DAO, our ecosystem is completely governed by community.",
+      "As an investor, welcome to the future of decentralized derivative trading! DRF token is the fundamental asset of Derify protocol that can be used for community voting and governance.",
   },
 ];
 

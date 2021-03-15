@@ -37,11 +37,12 @@ const Mechanism: React.FC = () => {
               </Typography.Heading>
               <div className={styles.content}>
                 <Typography.Content>
-                  In Derify protocol, trading action is considered as deposit a
-                  margin at one moment and withdraw the equity at another moment
-                  in future. The excution of the trading is to calculate the
-                  actual number of the equity. This model is the fundamental of
-                  Derify protocol.
+                  In Derify protocol, trading action is conducted via
+                  "computable contract", typical trading is considered as
+                  deposit a margin at one moment and withdraw the equity at a
+                  future moment, trader's execution of the trading is simplified
+                  to calculate the remaining equity to ensure no slippage and
+                  100% accuracy.
                 </Typography.Content>
               </div>
             </div>
@@ -49,14 +50,14 @@ const Mechanism: React.FC = () => {
               <Typography.Heading level={4}>hAMM</Typography.Heading>
               <div className={styles.content}>
                 <Typography.Content>
-                  The market making theory in Derify protocol is called “hedged
-                  Automated Market Making” (hAMM). The key objective of hAMM is
-                  similar to AMM: the imbalance of system causes arbitrage
-                  oppertunity, arbitrageurs can make risk-free profits by
-                  restoring the balance of system. Apart from the key objective,
-                  hAMM theory is very different from AMM.
+                  In Derify protocol, the market making is powered by "Hedged
+                  Automated Market Making" (hAMM) algorithm. The key objective
+                  of hAMM is similar to AMM: to restore the balance of system,
+                  arbitrageurs can contribute to this objective while earning
+                  risk-free profits. Apart from the key objective, hAMM theory
+                  is also very different from AMM.
                 </Typography.Content>
-                <a href="https://www.google.com/search?q=hAMM">learn more</a>
+                <a href="">Learn more</a>
               </div>
             </div>
             <div className={styles.item}>
@@ -65,13 +66,11 @@ const Mechanism: React.FC = () => {
                 <Typography.Content>
                   In Derify protocol, position is liquidity. All positions
                   provide liquidity to opposite positions. Yield Farmer can get
-                  sizeable returns by open and holding their positions(both long
-                  or short). We offer “2-way position opening” function for
-                  risk-free liquidity providing.
+                  considerable returns by holding positions(both long or short).
+                  We offer "2-way position opening" function for risk-free
+                  liquidity provision.
                 </Typography.Content>
-                <a href="https://www.google.com/search?q=Position Mining">
-                  learn more
-                </a>
+                <a href="">Learn more</a>
               </div>
             </div>
           </div>

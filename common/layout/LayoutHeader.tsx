@@ -19,10 +19,9 @@ const LayoutHeader: React.FC = () => {
     },
     {
       name: "Learn",
-      link: "",
       children: [
         {
-          name: "docs",
+          name: "Docs",
           link: "",
         },
         {
@@ -31,7 +30,7 @@ const LayoutHeader: React.FC = () => {
         },
         {
           name: "Github",
-          link: "",
+          link: "https://github.com/derivationlab",
         },
       ],
     },
@@ -41,27 +40,22 @@ const LayoutHeader: React.FC = () => {
     },
     {
       name: "Community",
-      link: "",
       children: [
         {
           name: "Twitter",
-          link: "",
+          link: "https://twitter.com/DerifyProtocol",
         },
         {
           name: "Discord",
-          link: "",
+          link: "https://discord.gg/U7q4pT7QSK",
         },
         {
           name: "Telegram",
-          link: "",
+          link: "https://t.me/derifyprotocolofficial",
         },
         {
-          name: "Reddit",
-          link: "",
-        },
-        {
-          name: "Forum",
-          link: "",
+          name: "Medium",
+          link: "https://medium.com/@derivationlab",
         },
       ],
     },
@@ -79,7 +73,14 @@ const LayoutHeader: React.FC = () => {
               <NavigationMenu menus={menus} />
             </Hide>
             <Hide style={{ width: "unset" }}>
-              <Button variant="outlined" color="secondary" size="large">
+              <Button
+                variant="outlined"
+                color="secondary"
+                size="large"
+                onClick={function toExchange() {
+                  alert("coming soon...");
+                }}
+              >
                 ExChange
               </Button>
             </Hide>

@@ -10,8 +10,8 @@ const SummaryData = [
     title: "2-Way Position",
     desc: [
       "go long and short freely",
-      "up to 10x leverage open 2-way position in the",
-      "same time",
+      "up to 10x leverage",
+      "open 2-way position in the same time",
     ],
   },
   {
@@ -19,8 +19,8 @@ const SummaryData = [
     title: "No Slippage",
     desc: [
       "index not affected by liquidity",
-      "trade with actual price synchronized with external",
-      "markets",
+      "trade with actual price",
+      "synchronized with external markets",
     ],
   },
   {
@@ -28,8 +28,8 @@ const SummaryData = [
     title: "RISK-FREE Liquidity Staking",
     desc: [
       "built-in cross margin trading",
-      "guaranteed ZERO impermanent loss 2-way positions",
-      "will never be liquidated",
+      "guaranteed ZERO impermanent loss",
+      "2-way positions will never be liquidated",
     ],
   },
   {
@@ -37,17 +37,17 @@ const SummaryData = [
     title: "High Performance And Low Gas Fee",
     desc: [
       "based on xDai stable side-chain",
-      "gas fee as low as $0.0001 future upgrade to rollup",
-      "solution",
+      "gas fee as low as $0.0001",
+      "future upgrade to rollup solution",
     ],
   },
   {
     icon: "/icons/summary05.svg",
     title: "Fully Decentralized",
     desc: [
-      "completely anti-cencorship",
-      "index powered by ORACLE sverifiable on-chain",
-      "transactions",
+      "completely anti-censorship",
+      "index powered by ORACLEs",
+      "verifiable on-chain transactions",
     ],
   },
   {
@@ -55,8 +55,8 @@ const SummaryData = [
     title: "Any Index and Collaterals",
     desc: [
       "free to create any index products",
-      "off-chain assets supported use any cryptocurrency",
-      "as collaterals",
+      "off-chain assets supported",
+      "use any cryptocurrency as collaterals",
     ],
   },
 ];
