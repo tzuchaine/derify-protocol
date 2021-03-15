@@ -36,7 +36,7 @@ const LayoutHeader: React.FC = () => {
     },
     {
       name: "Blog",
-      link: "",
+      link: "https://medium.com/@derivationlab",
     },
     {
       name: "Community",
@@ -52,10 +52,6 @@ const LayoutHeader: React.FC = () => {
         {
           name: "Telegram",
           link: "https://t.me/derifyprotocolofficial",
-        },
-        {
-          name: "Medium",
-          link: "https://medium.com/@derivationlab",
         },
       ],
     },

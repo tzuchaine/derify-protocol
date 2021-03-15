@@ -32,7 +32,7 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ menus }) => {
         key={`menu_${index}`}
         onClick={function link() {
           if (item.link) {
-            window.location.href = item.link;
+            window.open(item.link, "_blank");
           }
         }}
       >
@@ -58,7 +58,8 @@ const NavigationMenu: React.FC<NavigationMenuProps> = ({ menus }) => {
         key={index}
         onClick={function link() {
           if (item.link) {
-            window.location.href = item.link;
+            window.open(item.link, "_blank");
+
           }
         }}
       >
