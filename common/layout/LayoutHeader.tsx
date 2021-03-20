@@ -47,11 +47,11 @@ const LayoutHeader: React.FC = () => {
         },
         {
           name: "Discord",
-          link: "https://discord.gg/U7q4pT7QSK",
+          link: "https://discord.gg/kSR6tz2pdm",
         },
         {
           name: "Telegram",
-          link: "https://t.me/derifyprotocolofficial",
+          link: "https://t.me/DerifyProtocol_Official",
         },
       ],
     },

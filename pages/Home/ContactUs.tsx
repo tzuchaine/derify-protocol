@@ -58,7 +58,7 @@ const ContactUs: React.FC = () => {
           <div>
             <a
               className={styles.icon}
-              href="https://discord.gg/U7q4pT7QSK"
+              href="https://discord.gg/kSR6tz2pdm"
               target="_blank"
             >
               <DiscordIcon />
@@ -67,7 +67,7 @@ const ContactUs: React.FC = () => {
           <div>
             <a
               className={styles.icon}
-              href="https://t.me/derifyprotocolofficial"
+              href="https://t.me/DerifyProtocol_Official"
               target="_blank"
             >
               <TelegramIcon />
